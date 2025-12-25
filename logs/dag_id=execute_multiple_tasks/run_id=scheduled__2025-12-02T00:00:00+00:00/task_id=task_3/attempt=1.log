@@ -1,0 +1,29 @@
+[2025-12-23T12:17:41.438+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute_multiple_tasks.task_3 scheduled__2025-12-02T00:00:00+00:00 [queued]>
+[2025-12-23T12:17:41.445+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute_multiple_tasks.task_3 scheduled__2025-12-02T00:00:00+00:00 [queued]>
+[2025-12-23T12:17:41.445+0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-12-23T12:17:41.446+0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2025-12-23T12:17:41.446+0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-12-23T12:17:41.463+0300] {taskinstance.py:1309} INFO - Executing <Task(BashOperator): task_3> on 2025-12-02 00:00:00+00:00
+[2025-12-23T12:17:41.466+0300] {standard_task_runner.py:55} INFO - Started process 27174 to run task
+[2025-12-23T12:17:41.469+0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'execute_multiple_tasks', 'task_3', 'scheduled__2025-12-02T00:00:00+00:00', '--job-id', '225', '--raw', '--subdir', 'DAGS_FOLDER/execute_multiple_tasks.py', '--cfg-path', '/tmp/tmpruo9mxg3']
+[2025-12-23T12:17:41.469+0300] {standard_task_runner.py:83} INFO - Job 225: Subtask task_3
+[2025-12-23T12:17:41.523+0300] {task_command.py:389} INFO - Running <TaskInstance: execute_multiple_tasks.task_3 scheduled__2025-12-02T00:00:00+00:00 [running]> on host DESKTOP-P0U82UP.
+[2025-12-23T12:17:41.589+0300] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pker
+AIRFLOW_CTX_DAG_ID=execute_multiple_tasks
+AIRFLOW_CTX_TASK_ID=task_3
+AIRFLOW_CTX_EXECUTION_DATE=2025-12-02T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-12-02T00:00:00+00:00
+[2025-12-23T12:17:41.591+0300] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2025-12-23T12:17:41.592+0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        echo "Executing Task 3"\n        sleep 15\n        echo "Task 3 completed"\n        ']
+[2025-12-23T12:17:41.597+0300] {subprocess.py:86} INFO - Output:
+[2025-12-23T12:17:41.598+0300] {subprocess.py:93} INFO - Executing Task 3
+[2025-12-23T12:17:56.603+0300] {subprocess.py:93} INFO - Task 3 completed
+[2025-12-23T12:17:56.605+0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-12-23T12:17:56.664+0300] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=execute_multiple_tasks, task_id=task_3, execution_date=20251202T000000, start_date=20251223T091741, end_date=20251223T091756
+[2025-12-23T12:17:56.690+0300] {local_task_job.py:212} INFO - Task exited with return code 0
+[2025-12-23T12:17:56.713+0300] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check

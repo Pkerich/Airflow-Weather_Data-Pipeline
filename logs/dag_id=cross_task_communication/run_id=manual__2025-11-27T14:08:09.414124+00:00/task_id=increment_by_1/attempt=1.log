@@ -1,0 +1,66 @@
+[2025-11-27T17:08:12.307+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cross_task_communication.increment_by_1 manual__2025-11-27T14:08:09.414124+00:00 [queued]>
+[2025-11-27T17:08:12.322+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cross_task_communication.increment_by_1 manual__2025-11-27T14:08:09.414124+00:00 [queued]>
+[2025-11-27T17:08:12.324+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cross_task_communication.increment_by_1 manual__2025-11-27T14:08:09.414124+00:00 [queued]>
+[2025-11-27T17:08:12.324+0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-27T17:08:12.324+0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2025-11-27T17:08:12.324+0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-27T17:08:12.330+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cross_task_communication.increment_by_1 manual__2025-11-27T14:08:09.414124+00:00 [queued]>
+[2025-11-27T17:08:12.330+0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-27T17:08:12.330+0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2025-11-27T17:08:12.330+0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-27T17:08:12.343+0300] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): increment_by_1> on 2025-11-27 14:08:09.414124+00:00
+[2025-11-27T17:08:12.346+0300] {standard_task_runner.py:55} INFO - Started process 133839 to run task
+[2025-11-27T17:08:12.349+0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'cross_task_communication', 'increment_by_1', 'manual__2025-11-27T14:08:09.414124+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/xcom.py', '--cfg-path', '/tmp/tmp8yku6uac']
+[2025-11-27T17:08:12.350+0300] {standard_task_runner.py:83} INFO - Job 76: Subtask increment_by_1
+[2025-11-27T17:08:12.356+0300] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): increment_by_1> on 2025-11-27 14:08:09.414124+00:00
+[2025-11-27T17:08:12.359+0300] {standard_task_runner.py:55} INFO - Started process 133840 to run task
+[2025-11-27T17:08:12.366+0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'cross_task_communication', 'increment_by_1', 'manual__2025-11-27T14:08:09.414124+00:00', '--job-id', '77', '--raw', '--subdir', 'DAGS_FOLDER/xcom.py', '--cfg-path', '/tmp/tmpeb5cn1bu']
+[2025-11-27T17:08:12.368+0300] {standard_task_runner.py:83} INFO - Job 77: Subtask increment_by_1
+[2025-11-27T17:08:12.415+0300] {task_command.py:389} INFO - Running <TaskInstance: cross_task_communication.increment_by_1 manual__2025-11-27T14:08:09.414124+00:00 [running]> on host DESKTOP-P0U82UP.
+[2025-11-27T17:08:12.426+0300] {task_command.py:389} INFO - Running <TaskInstance: cross_task_communication.increment_by_1 manual__2025-11-27T14:08:09.414124+00:00 [running]> on host DESKTOP-P0U82UP.
+[2025-11-27T17:08:12.481+0300] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pker
+AIRFLOW_CTX_DAG_ID=cross_task_communication
+AIRFLOW_CTX_TASK_ID=increment_by_1
+AIRFLOW_CTX_EXECUTION_DATE=2025-11-27T14:08:09.414124+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-11-27T14:08:09.414124+00:00
+[2025-11-27T17:08:12.482+0300] {logging_mixin.py:137} INFO - Count counter!
+[2025-11-27T17:08:12.482+0300] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/pker/airflow/dags/xcom.py", line 14, in increment_by_1
+    return int(counter) + 1
+ValueError: invalid literal for int() with base 10: 'counter'
+[2025-11-27T17:08:12.487+0300] {taskinstance.py:1332} INFO - Marking task as FAILED. dag_id=cross_task_communication, task_id=increment_by_1, execution_date=20251127T140809, start_date=20251127T140812, end_date=20251127T140812
+[2025-11-27T17:08:12.499+0300] {standard_task_runner.py:105} ERROR - Failed to execute job 76 for task increment_by_1 (invalid literal for int() with base 10: 'counter'; 133839)
+[2025-11-27T17:08:12.505+0300] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pker
+AIRFLOW_CTX_DAG_ID=cross_task_communication
+AIRFLOW_CTX_TASK_ID=increment_by_1
+AIRFLOW_CTX_EXECUTION_DATE=2025-11-27T14:08:09.414124+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-11-27T14:08:09.414124+00:00
+[2025-11-27T17:08:12.506+0300] {logging_mixin.py:137} INFO - Count counter!
+[2025-11-27T17:08:12.506+0300] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/pker/airflow/dags/xcom.py", line 14, in increment_by_1
+    return int(counter) + 1
+ValueError: invalid literal for int() with base 10: 'counter'
+[2025-11-27T17:08:12.510+0300] {taskinstance.py:1332} INFO - Marking task as FAILED. dag_id=cross_task_communication, task_id=increment_by_1, execution_date=20251127T140809, start_date=20251127T140812, end_date=20251127T140812
+[2025-11-27T17:08:12.521+0300] {local_task_job.py:212} INFO - Task exited with return code 1
+[2025-11-27T17:08:12.522+0300] {standard_task_runner.py:105} ERROR - Failed to execute job 77 for task increment_by_1 (invalid literal for int() with base 10: 'counter'; 133840)
+[2025-11-27T17:08:12.535+0300] {local_task_job.py:212} INFO - Task exited with return code 1
+[2025-11-27T17:08:12.543+0300] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-27T17:08:12.553+0300] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

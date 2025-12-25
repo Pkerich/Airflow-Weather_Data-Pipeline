@@ -1,0 +1,24 @@
+[2025-11-29T09:23:05.251+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cross_task_communication.substract_9 manual__2025-11-29T06:22:56.817704+00:00 [queued]>
+[2025-11-29T09:23:05.260+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cross_task_communication.substract_9 manual__2025-11-29T06:22:56.817704+00:00 [queued]>
+[2025-11-29T09:23:05.260+0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-29T09:23:05.260+0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2025-11-29T09:23:05.260+0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-29T09:23:05.279+0300] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): substract_9> on 2025-11-29 06:22:56.817704+00:00
+[2025-11-29T09:23:05.283+0300] {standard_task_runner.py:55} INFO - Started process 624283 to run task
+[2025-11-29T09:23:05.286+0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'cross_task_communication', 'substract_9', 'manual__2025-11-29T06:22:56.817704+00:00', '--job-id', '168', '--raw', '--subdir', 'DAGS_FOLDER/xcom.py', '--cfg-path', '/tmp/tmp2a8vsx1f']
+[2025-11-29T09:23:05.287+0300] {standard_task_runner.py:83} INFO - Job 168: Subtask substract_9
+[2025-11-29T09:23:05.332+0300] {task_command.py:389} INFO - Running <TaskInstance: cross_task_communication.substract_9 manual__2025-11-29T06:22:56.817704+00:00 [running]> on host DESKTOP-P0U82UP.
+[2025-11-29T09:23:05.392+0300] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pker
+AIRFLOW_CTX_DAG_ID=cross_task_communication
+AIRFLOW_CTX_TASK_ID=substract_9
+AIRFLOW_CTX_EXECUTION_DATE=2025-11-29T06:22:56.817704+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-11-29T06:22:56.817704+00:00
+[2025-11-29T09:23:05.399+0300] {logging_mixin.py:137} INFO - Value 200!
+[2025-11-29T09:23:05.400+0300] {python.py:177} INFO - Done. Returned value was: 191
+[2025-11-29T09:23:05.415+0300] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=cross_task_communication, task_id=substract_9, execution_date=20251129T062256, start_date=20251129T062305, end_date=20251129T062305
+[2025-11-29T09:23:05.470+0300] {local_task_job.py:212} INFO - Task exited with return code 0
+[2025-11-29T09:23:05.506+0300] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check

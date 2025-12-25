@@ -1,0 +1,1260 @@
+[2025-12-02T08:06:00.726+0300] {processor.py:153} INFO - Started process (PID=923931) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:06:00.728+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:06:00.729+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:06:00.729+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:06:01.064+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:06:01.135+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:06:01.135+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:06:01.165+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:06:01.165+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:06:01.252+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.534 seconds
+[2025-12-02T08:06:34.575+0300] {processor.py:153} INFO - Started process (PID=923984) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:06:34.579+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:06:34.581+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:06:34.581+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:06:34.858+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:06:34.888+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:06:34.887+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:06:34.926+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:06:34.926+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:06:34.979+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.410 seconds
+[2025-12-02T08:07:28.958+0300] {processor.py:153} INFO - Started process (PID=924032) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:07:28.981+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:07:28.983+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:07:28.983+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:07:29.195+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:07:29.219+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:07:29.219+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:07:29.246+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:07:29.246+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:07:29.294+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.341 seconds
+[2025-12-02T08:08:17.301+0300] {processor.py:153} INFO - Started process (PID=924079) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:08:17.303+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:08:17.304+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:08:17.304+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:08:17.521+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:08:17.548+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:08:17.548+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:08:17.582+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:08:17.581+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:08:17.786+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.489 seconds
+[2025-12-02T08:09:12.328+0300] {processor.py:153} INFO - Started process (PID=924129) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:09:12.330+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:09:12.332+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:09:12.331+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:09:12.539+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:09:12.564+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:09:12.564+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:09:12.595+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:09:12.595+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:09:12.645+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.324 seconds
+[2025-12-02T08:10:00.997+0300] {processor.py:153} INFO - Started process (PID=924176) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:10:01.020+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:10:01.023+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:10:01.023+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:10:01.258+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:10:01.281+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:10:01.281+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:10:01.315+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:10:01.315+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:10:01.372+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.380 seconds
+[2025-12-02T08:10:49.589+0300] {processor.py:153} INFO - Started process (PID=924224) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:10:49.613+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:10:49.616+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:10:49.615+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:10:49.849+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:10:49.875+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:10:49.875+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:10:49.906+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:10:49.906+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:10:49.934+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.351 seconds
+[2025-12-02T08:11:38.200+0300] {processor.py:153} INFO - Started process (PID=924292) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:11:38.203+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:11:38.205+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:11:38.205+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:11:38.462+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:11:38.489+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:11:38.489+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:11:38.522+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:11:38.521+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:11:38.558+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.368 seconds
+[2025-12-02T08:12:24.537+0300] {processor.py:153} INFO - Started process (PID=924335) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:12:24.559+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:12:24.562+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:12:24.561+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:12:24.784+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:12:24.809+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:12:24.809+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:12:24.838+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:12:24.838+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:12:25.067+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.536 seconds
+[2025-12-02T08:13:14.072+0300] {processor.py:153} INFO - Started process (PID=924379) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:13:14.094+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:13:14.097+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:13:14.096+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:13:14.341+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:13:14.364+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:13:14.364+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:13:14.399+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:13:14.399+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:13:14.450+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.383 seconds
+[2025-12-02T08:14:01.222+0300] {processor.py:153} INFO - Started process (PID=924424) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:14:01.244+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:14:01.246+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:14:01.246+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:14:01.438+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:14:01.459+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:14:01.459+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:14:01.487+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:14:01.486+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:14:01.547+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.331 seconds
+[2025-12-02T08:14:50.630+0300] {processor.py:153} INFO - Started process (PID=924471) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:14:50.653+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:14:50.656+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:14:50.655+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:14:50.868+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:14:50.890+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:14:50.890+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:14:50.918+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:14:50.918+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:14:50.966+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.342 seconds
+[2025-12-02T08:15:42.229+0300] {processor.py:153} INFO - Started process (PID=924522) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:15:42.245+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:15:42.247+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:15:42.246+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:15:42.474+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:15:42.497+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:15:42.497+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:15:42.526+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:15:42.526+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:15:42.591+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.369 seconds
+[2025-12-02T08:16:33.673+0300] {processor.py:153} INFO - Started process (PID=924589) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:16:33.676+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:16:33.678+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:16:33.677+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:16:33.901+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:16:33.928+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:16:33.927+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:16:33.959+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:16:33.959+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:16:34.212+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.545 seconds
+[2025-12-02T08:17:22.382+0300] {processor.py:153} INFO - Started process (PID=924639) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:17:22.393+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:17:22.395+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:17:22.395+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:17:22.581+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:17:22.603+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:17:22.603+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:17:22.852+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:17:22.851+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:17:22.917+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.539 seconds
+[2025-12-02T08:18:10.998+0300] {processor.py:153} INFO - Started process (PID=924686) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:18:11.021+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:18:11.024+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:18:11.023+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:18:11.250+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:18:11.280+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:18:11.280+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:18:11.311+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:18:11.311+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:18:11.366+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.374 seconds
+[2025-12-02T08:18:59.034+0300] {processor.py:153} INFO - Started process (PID=924731) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:18:59.056+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:18:59.058+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:18:59.058+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:18:59.275+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:18:59.297+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:18:59.297+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:18:59.330+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:18:59.330+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:18:59.390+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.362 seconds
+[2025-12-02T08:19:46.906+0300] {processor.py:153} INFO - Started process (PID=924776) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:19:46.928+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:19:46.930+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:19:46.930+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:19:47.132+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:19:47.155+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:19:47.155+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:19:47.197+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:19:47.197+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:19:47.231+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.331 seconds
+[2025-12-02T08:20:30.920+0300] {processor.py:153} INFO - Started process (PID=924817) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:20:30.940+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:20:30.941+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:20:30.941+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:20:31.186+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:20:31.213+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:20:31.213+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:20:31.253+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:20:31.252+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:20:31.474+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.558 seconds
+[2025-12-02T08:21:21.820+0300] {processor.py:153} INFO - Started process (PID=924890) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:21:21.841+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:21:21.842+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:21:21.842+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:21:22.049+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:21:22.073+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:21:22.073+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:21:22.243+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:21:22.243+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:21:22.288+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.470 seconds
+[2025-12-02T08:22:11.278+0300] {processor.py:153} INFO - Started process (PID=924937) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:22:11.281+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:22:11.283+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:22:11.282+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:22:11.528+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:22:11.559+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:22:11.559+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:22:11.604+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:22:11.603+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:22:11.651+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.380 seconds
+[2025-12-02T08:23:01.895+0300] {processor.py:153} INFO - Started process (PID=924984) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:23:01.916+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:23:01.917+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:23:01.917+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:23:02.154+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:23:02.177+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:23:02.177+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:23:02.216+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:23:02.216+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:23:02.248+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.356 seconds
+[2025-12-02T08:23:45.042+0300] {processor.py:153} INFO - Started process (PID=925026) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:23:45.066+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:23:45.068+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:23:45.068+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:23:45.268+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:23:45.303+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:23:45.303+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:23:45.349+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:23:45.349+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:23:45.398+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.361 seconds
+[2025-12-02T08:24:33.058+0300] {processor.py:153} INFO - Started process (PID=925071) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:24:33.081+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:24:33.084+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:24:33.084+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:24:33.272+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:24:33.296+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:24:33.296+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:24:33.329+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:24:33.329+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:24:33.392+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.339 seconds
+[2025-12-02T08:25:22.755+0300] {processor.py:153} INFO - Started process (PID=925118) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:25:22.757+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:25:22.758+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:25:22.758+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:25:23.052+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:25:23.090+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:25:23.090+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:25:23.419+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:25:23.418+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:25:23.474+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.723 seconds
+[2025-12-02T08:26:06.344+0300] {processor.py:153} INFO - Started process (PID=925189) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:26:06.347+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:26:06.348+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:26:06.348+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:26:06.573+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:26:06.600+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:26:06.599+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:26:06.636+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:26:06.636+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:26:06.700+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.363 seconds
+[2025-12-02T08:26:51.496+0300] {processor.py:153} INFO - Started process (PID=925231) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:26:51.520+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:26:51.523+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:26:51.523+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:26:51.723+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:26:51.748+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:26:51.748+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:26:51.781+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:26:51.781+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:26:51.841+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.351 seconds
+[2025-12-02T08:27:40.787+0300] {processor.py:153} INFO - Started process (PID=925275) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:27:40.809+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:27:40.811+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:27:40.811+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:27:41.070+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:27:41.099+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:27:41.098+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:27:41.135+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:27:41.135+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:27:41.195+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.413 seconds
+[2025-12-02T08:28:30.697+0300] {processor.py:153} INFO - Started process (PID=925321) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:28:30.720+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:28:30.722+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:28:30.721+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:28:30.974+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:28:30.999+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:28:30.998+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:28:31.040+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:28:31.040+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:28:31.113+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.422 seconds
+[2025-12-02T08:29:20.297+0300] {processor.py:153} INFO - Started process (PID=925369) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:29:20.318+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:29:20.319+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:29:20.319+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:29:20.531+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:29:20.558+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:29:20.558+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:29:20.590+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:29:20.590+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:29:20.836+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.548 seconds
+[2025-12-02T08:30:09.811+0300] {processor.py:153} INFO - Started process (PID=925414) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:30:09.834+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:30:09.837+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:30:09.837+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:30:10.059+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:30:10.088+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:30:10.088+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:30:10.127+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:30:10.127+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:30:10.183+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.377 seconds
+[2025-12-02T08:30:58.954+0300] {processor.py:153} INFO - Started process (PID=925482) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:30:58.977+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:30:58.980+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:30:58.980+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:30:59.173+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:30:59.197+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:30:59.196+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:30:59.227+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:30:59.226+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:30:59.256+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.308 seconds
+[2025-12-02T08:31:51.273+0300] {processor.py:153} INFO - Started process (PID=925531) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:31:51.295+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:31:51.297+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:31:51.297+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:31:51.514+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:31:51.548+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:31:51.548+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:31:51.588+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:31:51.588+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:31:51.627+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.361 seconds
+[2025-12-02T08:32:43.442+0300] {processor.py:153} INFO - Started process (PID=925578) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:32:43.446+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:32:43.447+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:32:43.447+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:32:43.679+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:32:43.710+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:32:43.710+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:32:43.757+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:32:43.757+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:32:43.824+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.387 seconds
+[2025-12-02T08:33:37.714+0300] {processor.py:153} INFO - Started process (PID=925627) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:33:37.736+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:33:37.738+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:33:37.737+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:33:37.932+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:33:37.956+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:33:37.956+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:33:38.165+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:33:38.165+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:33:38.232+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.523 seconds
+[2025-12-02T08:34:26.662+0300] {processor.py:153} INFO - Started process (PID=925671) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:34:26.683+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:34:26.685+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:34:26.685+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:34:25.510+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:34:25.539+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:34:25.539+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:34:25.575+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:34:25.575+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:34:25.636+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.412 seconds
+[2025-12-02T08:35:17.222+0300] {processor.py:153} INFO - Started process (PID=925731) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:35:17.243+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:35:17.244+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:35:17.244+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:35:17.543+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:35:17.588+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:35:17.588+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:35:17.638+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:35:17.638+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:35:17.700+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.482 seconds
+[2025-12-02T08:36:05.494+0300] {processor.py:153} INFO - Started process (PID=925795) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:36:05.497+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:36:05.498+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:36:05.498+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:36:05.744+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:36:05.769+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:36:05.768+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:36:05.803+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:36:05.803+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:36:05.833+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.344 seconds
+[2025-12-02T08:36:55.569+0300] {processor.py:153} INFO - Started process (PID=925840) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:36:55.572+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:36:55.573+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:36:55.573+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:36:55.816+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:36:55.842+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:36:55.841+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:36:55.876+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:36:55.876+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:36:55.928+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.365 seconds
+[2025-12-02T08:37:44.865+0300] {processor.py:153} INFO - Started process (PID=925886) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:37:44.887+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:37:44.889+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:37:44.889+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:37:45.088+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:37:45.115+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:37:45.114+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:37:45.153+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:37:45.152+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:37:45.380+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.520 seconds
+[2025-12-02T08:38:32.634+0300] {processor.py:153} INFO - Started process (PID=925929) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:38:32.655+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:38:32.657+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:38:32.657+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:38:32.875+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:38:32.900+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:38:32.899+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:38:32.934+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:38:32.934+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:38:32.971+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.342 seconds
+[2025-12-02T08:39:19.626+0300] {processor.py:153} INFO - Started process (PID=925973) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:39:19.649+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:39:19.651+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:39:19.651+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:39:19.876+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:39:19.901+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:39:19.901+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:39:19.933+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:39:19.933+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:39:19.994+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.374 seconds
+[2025-12-02T08:40:05.377+0300] {processor.py:153} INFO - Started process (PID=926042) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:40:05.398+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:40:05.401+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:40:05.400+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:40:05.627+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:40:05.652+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:40:05.652+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:40:05.689+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:40:05.689+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:40:05.732+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.361 seconds
+[2025-12-02T08:40:52.894+0300] {processor.py:153} INFO - Started process (PID=926086) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:40:52.918+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:40:52.921+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:40:52.920+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:40:53.117+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:40:53.143+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:40:53.142+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:40:53.184+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:40:53.184+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:40:53.442+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.552 seconds
+[2025-12-02T08:41:46.824+0300] {processor.py:153} INFO - Started process (PID=926133) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:41:46.847+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:41:46.849+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:41:46.849+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:41:47.076+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:41:47.106+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:41:47.105+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:41:47.136+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:41:47.136+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:41:47.359+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.540 seconds
+[2025-12-02T08:42:38.035+0300] {processor.py:153} INFO - Started process (PID=926180) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:42:38.056+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:42:38.057+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:42:38.057+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:42:38.326+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:42:38.354+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:42:38.354+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:42:38.391+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:42:38.390+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:42:38.420+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.389 seconds
+[2025-12-02T08:43:24.584+0300] {processor.py:153} INFO - Started process (PID=926224) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:43:24.608+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:43:24.611+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:43:24.610+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:43:24.853+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:43:24.876+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:43:24.876+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:43:24.909+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:43:24.909+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:43:24.957+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.380 seconds
+[2025-12-02T08:44:15.364+0300] {processor.py:153} INFO - Started process (PID=926271) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:44:15.389+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:44:15.392+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:44:15.392+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:44:15.632+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:44:15.656+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:44:15.655+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:44:15.694+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:44:15.694+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:44:15.762+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.405 seconds
+[2025-12-02T08:45:09.723+0300] {processor.py:153} INFO - Started process (PID=926343) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:45:09.746+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:45:09.747+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:45:09.747+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:45:10.001+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:45:10.043+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:45:10.043+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:45:10.125+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:45:10.124+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:45:10.373+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.663 seconds
+[2025-12-02T08:46:01.509+0300] {processor.py:153} INFO - Started process (PID=926396) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:46:01.531+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:46:01.532+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:46:01.532+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:46:01.748+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:46:01.772+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:46:01.772+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:46:01.993+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:46:01.993+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:46:02.038+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.534 seconds
+[2025-12-02T08:46:55.681+0300] {processor.py:153} INFO - Started process (PID=926445) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:46:55.684+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:46:55.686+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:46:55.685+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:46:55.997+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:46:56.030+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:46:56.030+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:46:56.075+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:46:56.075+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:46:56.125+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.450 seconds
+[2025-12-02T08:47:49.259+0300] {processor.py:153} INFO - Started process (PID=926493) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:47:49.261+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:47:49.262+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:47:49.262+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:47:49.472+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:47:49.504+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:47:49.504+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:47:49.539+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:47:49.539+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:47:49.573+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.320 seconds
+[2025-12-02T08:48:38.137+0300] {processor.py:153} INFO - Started process (PID=926537) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:48:38.161+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:48:38.162+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:48:38.161+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:48:38.375+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:48:38.402+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:48:38.401+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:48:38.435+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:48:38.435+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:48:38.494+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.361 seconds
+[2025-12-02T08:49:31.404+0300] {processor.py:153} INFO - Started process (PID=926584) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:49:31.426+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:49:31.429+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:49:31.429+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:49:31.750+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:49:31.786+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:49:31.785+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:49:31.857+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:49:31.857+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:49:32.155+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.755 seconds
+[2025-12-02T08:50:26.974+0300] {processor.py:153} INFO - Started process (PID=926653) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:50:26.997+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:50:26.999+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:50:26.999+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:50:27.218+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:50:27.246+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:50:27.246+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:50:27.446+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:50:27.446+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:50:27.508+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.540 seconds
+[2025-12-02T08:51:22.243+0300] {processor.py:153} INFO - Started process (PID=926704) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:51:22.266+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:51:22.268+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:51:22.268+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:51:22.476+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:51:22.504+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:51:22.504+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:51:22.549+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:51:22.549+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:51:22.610+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.372 seconds
+[2025-12-02T08:52:13.636+0300] {processor.py:153} INFO - Started process (PID=926751) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:52:13.660+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:52:13.663+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:52:13.663+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:52:13.886+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:52:13.915+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:52:13.914+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:52:13.945+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:52:13.945+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:52:14.006+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.376 seconds
+[2025-12-02T08:52:59.849+0300] {processor.py:153} INFO - Started process (PID=926798) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:52:59.873+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:52:59.875+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:52:59.875+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:53:00.127+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:53:00.152+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:53:00.152+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:53:00.185+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:53:00.185+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:53:00.246+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.402 seconds
+[2025-12-02T08:53:48.867+0300] {processor.py:153} INFO - Started process (PID=926842) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:53:48.871+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:53:48.873+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:53:48.873+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:53:49.098+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:53:49.136+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:53:49.136+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:53:49.177+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:53:49.177+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:53:49.420+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.558 seconds
+[2025-12-02T08:54:39.062+0300] {processor.py:153} INFO - Started process (PID=926910) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:54:39.066+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:54:39.067+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:54:39.067+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:54:39.297+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:54:39.327+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:54:39.326+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:54:39.529+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:54:39.529+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:54:39.594+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.542 seconds
+[2025-12-02T08:55:27.122+0300] {processor.py:153} INFO - Started process (PID=926954) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:55:27.146+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:55:27.149+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:55:27.149+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:55:27.382+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:55:27.414+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:55:27.414+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:55:27.622+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:55:27.621+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:55:27.672+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.559 seconds
+[2025-12-02T08:56:23.370+0300] {processor.py:153} INFO - Started process (PID=927009) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:56:23.393+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:56:23.396+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:56:23.395+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:56:23.609+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:56:23.634+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:56:23.634+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:56:23.664+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:56:23.664+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:56:23.731+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.368 seconds
+[2025-12-02T08:57:12.797+0300] {processor.py:153} INFO - Started process (PID=927056) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:57:12.820+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:57:12.823+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:57:12.822+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:57:13.017+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:57:13.045+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:57:13.044+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:57:13.092+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:57:13.091+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:57:13.126+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.335 seconds
+[2025-12-02T08:58:02.819+0300] {processor.py:153} INFO - Started process (PID=927100) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:58:02.840+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:58:02.842+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:58:02.842+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:58:03.057+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:58:03.100+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:58:03.100+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:58:03.140+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:58:03.140+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:58:03.381+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.571 seconds
+[2025-12-02T08:58:54.688+0300] {processor.py:153} INFO - Started process (PID=927149) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:58:54.711+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:58:54.715+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:58:54.714+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:58:55.006+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:58:55.038+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:58:55.037+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:58:55.285+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:58:55.285+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:58:55.320+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.638 seconds
+[2025-12-02T08:59:45.178+0300] {processor.py:153} INFO - Started process (PID=927217) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:59:45.193+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T08:59:45.197+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:59:45.196+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:59:45.413+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T08:59:45.442+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:59:45.442+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T08:59:45.658+0300] {logging_mixin.py:137} INFO - [2025-12-02T08:59:45.658+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T08:59:45.722+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.548 seconds
+[2025-12-02T09:00:38.460+0300] {processor.py:153} INFO - Started process (PID=927264) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:00:38.463+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:00:38.465+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:00:38.465+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:00:38.714+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:00:38.747+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:00:38.746+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:00:38.791+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:00:38.790+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:00:38.825+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.372 seconds
+[2025-12-02T09:01:29.377+0300] {processor.py:153} INFO - Started process (PID=927308) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:01:29.400+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:01:29.403+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:01:29.402+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:01:29.684+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:01:29.728+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:01:29.728+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:01:29.765+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:01:29.764+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:01:29.823+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.451 seconds
+[2025-12-02T09:02:20.580+0300] {processor.py:153} INFO - Started process (PID=927357) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:02:20.602+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:02:20.604+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:02:20.604+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:02:20.825+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:02:20.857+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:02:20.856+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:02:20.890+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:02:20.890+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:02:21.143+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.570 seconds
+[2025-12-02T09:03:10.312+0300] {processor.py:153} INFO - Started process (PID=927403) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:03:10.316+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:03:10.317+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:03:10.317+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:03:10.536+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:03:10.564+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:03:10.564+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:03:10.762+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:03:10.762+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:03:10.820+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.513 seconds
+[2025-12-02T09:04:00.882+0300] {processor.py:153} INFO - Started process (PID=927471) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:04:00.905+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:04:00.908+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:04:00.907+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:04:01.122+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:04:01.153+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:04:01.153+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:04:01.381+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:04:01.380+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:04:01.421+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.544 seconds
+[2025-12-02T09:04:53.851+0300] {processor.py:153} INFO - Started process (PID=927518) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:04:53.854+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:04:53.855+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:04:53.855+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:04:54.132+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:04:54.161+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:04:54.161+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:04:54.199+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:04:54.199+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:04:54.259+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.416 seconds
+[2025-12-02T09:05:38.097+0300] {processor.py:153} INFO - Started process (PID=927562) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:05:38.100+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:05:38.101+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:05:38.101+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:05:38.339+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:05:38.374+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:05:38.374+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:05:38.410+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:05:38.410+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:05:38.448+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.355 seconds
+[2025-12-02T09:06:25.099+0300] {processor.py:153} INFO - Started process (PID=927613) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:06:25.123+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:06:25.126+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:06:25.125+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:06:25.367+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:06:25.399+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:06:25.399+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:06:25.446+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:06:25.445+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:06:25.737+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.643 seconds
+[2025-12-02T09:07:12.967+0300] {processor.py:153} INFO - Started process (PID=927658) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:07:12.990+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:07:12.993+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:07:12.992+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:07:13.206+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:07:13.235+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:07:13.235+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:07:13.429+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:07:13.429+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:07:13.487+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.527 seconds
+[2025-12-02T09:08:02.305+0300] {processor.py:153} INFO - Started process (PID=927702) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:08:02.327+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:08:02.329+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:08:02.329+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:08:02.546+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:08:02.572+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:08:02.572+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:08:02.803+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:08:02.803+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:08:02.866+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.566 seconds
+[2025-12-02T09:08:52.856+0300] {processor.py:153} INFO - Started process (PID=927771) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:08:52.878+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:08:52.880+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:08:52.880+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:08:53.100+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:08:53.135+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:08:53.135+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:08:53.177+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:08:53.176+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:08:53.213+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.363 seconds
+[2025-12-02T09:09:36.277+0300] {processor.py:153} INFO - Started process (PID=927813) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:09:36.280+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:09:36.282+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:09:36.282+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:09:36.502+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:09:36.528+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:09:36.527+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:09:36.562+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:09:36.561+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:09:36.620+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.349 seconds
+[2025-12-02T09:10:24.817+0300] {processor.py:153} INFO - Started process (PID=927855) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:10:24.819+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:10:24.820+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:10:24.820+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:10:25.063+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:10:25.090+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:10:25.090+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:10:25.125+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:10:25.125+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:10:25.326+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.514 seconds
+[2025-12-02T09:11:15.360+0300] {processor.py:153} INFO - Started process (PID=927902) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:11:15.384+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:11:15.386+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:11:15.386+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:11:15.595+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:11:15.621+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:11:15.620+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:11:15.843+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:11:15.842+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:11:15.899+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.544 seconds
+[2025-12-02T09:12:05.635+0300] {processor.py:153} INFO - Started process (PID=927949) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:12:05.658+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:12:05.661+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:12:05.661+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:12:05.915+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:12:05.948+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:12:05.947+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:12:06.201+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:12:06.201+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:12:06.230+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.603 seconds
+[2025-12-02T09:12:54.540+0300] {processor.py:153} INFO - Started process (PID=927993) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:12:54.561+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:12:54.563+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:12:54.563+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:12:54.783+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:12:54.982+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:12:54.981+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:12:55.020+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:12:55.020+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:12:55.075+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.541 seconds
+[2025-12-02T09:13:46.905+0300] {processor.py:153} INFO - Started process (PID=928066) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:13:46.908+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:13:46.910+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:13:46.910+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:13:47.106+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:13:47.130+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:13:47.129+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:13:47.165+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:13:47.165+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:13:47.230+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.331 seconds
+[2025-12-02T09:14:31.016+0300] {processor.py:153} INFO - Started process (PID=928110) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:14:31.018+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:14:31.020+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:14:31.020+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:14:31.246+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:14:31.273+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:14:31.273+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:14:31.315+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:14:31.315+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:14:31.548+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.538 seconds
+[2025-12-02T09:15:20.533+0300] {processor.py:153} INFO - Started process (PID=928155) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:15:20.535+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:15:20.536+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:15:20.536+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:15:20.752+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:15:20.783+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:15:20.783+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:15:20.969+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:15:20.968+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:15:21.032+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.503 seconds
+[2025-12-02T09:16:10.016+0300] {processor.py:153} INFO - Started process (PID=928207) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:16:10.020+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:16:10.021+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:16:10.021+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:16:10.252+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:16:10.283+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:16:10.283+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:16:10.519+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:16:10.518+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:16:10.574+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.564 seconds
+[2025-12-02T09:16:57.928+0300] {processor.py:153} INFO - Started process (PID=928252) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:16:57.951+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:16:57.952+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:16:57.952+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:16:58.268+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:16:58.309+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:16:58.309+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:16:58.345+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:16:58.344+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:16:58.412+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.488 seconds
+[2025-12-02T09:17:45.980+0300] {processor.py:153} INFO - Started process (PID=928300) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:17:46.002+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:17:46.004+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:17:46.004+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:17:46.219+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:17:46.244+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:17:46.243+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:17:46.274+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:17:46.274+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:17:46.338+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.362 seconds
+[2025-12-02T09:18:34.259+0300] {processor.py:153} INFO - Started process (PID=928367) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:18:34.282+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:18:34.285+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:18:34.284+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:18:34.524+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:18:34.554+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:18:34.554+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:18:34.590+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:18:34.590+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:18:34.846+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.592 seconds
+[2025-12-02T09:19:20.376+0300] {processor.py:153} INFO - Started process (PID=928412) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:19:20.398+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:19:20.400+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:19:20.400+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:19:20.649+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:19:20.683+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:19:20.683+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:19:20.963+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:19:20.963+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:19:21.035+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.662 seconds
+[2025-12-02T09:20:14.734+0300] {processor.py:153} INFO - Started process (PID=928458) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:20:14.737+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:20:14.738+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:20:14.737+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:20:14.978+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:20:15.163+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:20:15.163+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:20:15.211+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:20:15.211+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:20:15.271+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.541 seconds
+[2025-12-02T09:21:03.734+0300] {processor.py:153} INFO - Started process (PID=928504) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:21:03.757+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:21:03.759+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:21:03.759+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:21:03.991+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:21:04.018+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:21:04.017+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:21:04.051+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:21:04.051+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:21:04.110+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.381 seconds
+[2025-12-02T09:21:53.518+0300] {processor.py:153} INFO - Started process (PID=928553) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:21:53.542+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:21:53.543+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:21:53.543+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:21:53.751+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:21:53.776+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:21:53.776+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:21:53.807+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:21:53.806+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:21:53.872+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.358 seconds
+[2025-12-02T09:22:42.650+0300] {processor.py:153} INFO - Started process (PID=928600) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:22:42.672+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:22:42.674+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:22:42.674+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:22:42.915+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:22:42.953+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:22:42.953+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:22:42.986+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:22:42.986+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:22:43.261+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.616 seconds
+[2025-12-02T09:23:30.814+0300] {processor.py:153} INFO - Started process (PID=928666) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:23:30.817+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:23:30.820+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:23:30.820+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:23:31.120+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:23:31.167+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:23:31.167+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:23:31.448+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:23:31.448+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:23:31.505+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.696 seconds
+[2025-12-02T09:24:23.760+0300] {processor.py:153} INFO - Started process (PID=928713) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:24:23.763+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:24:23.764+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:24:23.764+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:24:23.978+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:24:24.018+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:24:24.017+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:24:24.270+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:24:24.270+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:24:24.330+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.575 seconds
+[2025-12-02T09:25:12.986+0300] {processor.py:153} INFO - Started process (PID=928759) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:25:13.006+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:25:13.008+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:25:13.008+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:25:13.260+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:25:13.298+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:25:13.297+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:25:13.345+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:25:13.345+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:25:13.405+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.427 seconds
+[2025-12-02T09:25:59.661+0300] {processor.py:153} INFO - Started process (PID=928806) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:25:59.686+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:25:59.689+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:25:59.689+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:25:59.906+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:25:59.938+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:25:59.937+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:25:59.974+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:25:59.974+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:26:00.225+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.570 seconds
+[2025-12-02T09:26:49.305+0300] {processor.py:153} INFO - Started process (PID=928855) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:26:49.307+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:26:49.308+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:26:49.308+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:26:49.608+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:26:49.637+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:26:49.636+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:26:49.668+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:26:49.668+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:26:49.944+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.643 seconds
+[2025-12-02T09:27:40.292+0300] {processor.py:153} INFO - Started process (PID=928904) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:27:40.317+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:27:40.319+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:27:40.319+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:27:40.532+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:27:40.556+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:27:40.556+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:27:40.734+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:27:40.734+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:27:40.764+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.477 seconds
+[2025-12-02T09:28:29.798+0300] {processor.py:153} INFO - Started process (PID=928968) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:28:29.822+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:28:29.824+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:28:29.824+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:28:30.061+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:28:30.300+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:28:30.300+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:28:30.342+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:28:30.342+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:28:30.380+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.587 seconds
+[2025-12-02T09:29:19.902+0300] {processor.py:153} INFO - Started process (PID=929014) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:29:19.926+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:29:19.928+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:29:19.928+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:29:20.125+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:29:20.321+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:29:20.321+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:29:20.353+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:29:20.353+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:29:20.409+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.512 seconds
+[2025-12-02T09:30:10.250+0300] {processor.py:153} INFO - Started process (PID=929062) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:30:10.274+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:30:10.277+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:30:10.276+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:30:10.529+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:30:10.562+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:30:10.562+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:30:10.600+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:30:10.599+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:30:10.884+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.643 seconds
+[2025-12-02T09:31:05.487+0300] {processor.py:153} INFO - Started process (PID=929110) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:31:05.494+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:31:05.495+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:31:05.495+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:31:05.778+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:31:05.812+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:31:05.811+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:31:06.109+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:31:06.109+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:31:06.161+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.681 seconds
+[2025-12-02T09:31:59.744+0300] {processor.py:153} INFO - Started process (PID=929161) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:31:59.747+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:31:59.748+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:31:59.748+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:32:00.008+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:32:00.047+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:32:00.047+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:32:00.289+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:32:00.289+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:32:00.345+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.609 seconds
+[2025-12-02T09:32:52.116+0300] {processor.py:153} INFO - Started process (PID=929229) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:32:52.119+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:32:52.121+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:32:52.120+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:32:52.365+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:32:52.576+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:32:52.576+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:32:52.609+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:32:52.609+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:32:52.664+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.556 seconds
+[2025-12-02T09:33:43.352+0300] {processor.py:153} INFO - Started process (PID=929279) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:33:43.374+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:33:43.376+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:33:43.376+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:33:43.801+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:33:43.832+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:33:43.831+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:33:43.872+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:33:43.872+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:33:43.933+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.587 seconds
+[2025-12-02T09:34:36.286+0300] {processor.py:153} INFO - Started process (PID=929324) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:34:36.310+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:34:36.313+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:34:36.312+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:34:36.533+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:34:36.570+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:34:36.569+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:34:36.607+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:34:36.607+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:34:36.856+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.577 seconds
+[2025-12-02T09:35:27.188+0300] {processor.py:153} INFO - Started process (PID=929369) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:35:27.213+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:35:27.217+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:35:27.216+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:35:27.438+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:35:27.466+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:35:27.466+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:35:27.677+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:35:27.676+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:35:27.740+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.560 seconds
+[2025-12-02T09:36:15.693+0300] {processor.py:153} INFO - Started process (PID=929423) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:36:15.716+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:36:15.720+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:36:15.720+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:36:15.917+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:36:15.943+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:36:15.943+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:36:16.194+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:36:16.194+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:36:16.238+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.552 seconds
+[2025-12-02T09:37:06.717+0300] {processor.py:153} INFO - Started process (PID=929470) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:37:06.740+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:37:06.743+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:37:06.742+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:37:06.984+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:37:07.171+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:37:07.170+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:37:07.212+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:37:07.212+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:37:07.272+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.560 seconds
+[2025-12-02T09:37:57.029+0300] {processor.py:153} INFO - Started process (PID=929540) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:37:57.052+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:37:57.055+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:37:57.054+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:37:57.443+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:37:57.473+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:37:57.472+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:37:57.512+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:37:57.512+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:37:57.571+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.547 seconds
+[2025-12-02T09:38:48.663+0300] {processor.py:153} INFO - Started process (PID=929588) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:38:48.684+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:38:48.685+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:38:48.685+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:38:48.917+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:38:48.955+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:38:48.955+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:38:49.007+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:38:49.007+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:38:49.239+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.579 seconds
+[2025-12-02T09:39:40.009+0300] {processor.py:153} INFO - Started process (PID=929632) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:39:40.030+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:39:40.031+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:39:40.031+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:39:40.272+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:39:40.299+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:39:40.299+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:39:40.502+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:39:40.502+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:39:40.560+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.557 seconds
+[2025-12-02T09:40:33.953+0300] {processor.py:153} INFO - Started process (PID=929678) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:40:33.956+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:40:33.957+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:40:33.957+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:40:34.166+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:40:34.197+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:40:34.197+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:40:34.414+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:40:34.414+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:40:34.470+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.526 seconds
+[2025-12-02T09:41:28.826+0300] {processor.py:153} INFO - Started process (PID=929727) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:41:28.848+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:41:28.850+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:41:28.850+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:41:29.110+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:41:29.335+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:41:29.334+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:41:29.376+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:41:29.375+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:41:29.407+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.587 seconds
+[2025-12-02T09:42:22.597+0300] {processor.py:153} INFO - Started process (PID=929797) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:42:22.619+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:42:22.621+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:42:22.621+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:42:23.071+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:42:23.113+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:42:23.113+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:42:23.147+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:42:23.147+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:42:23.220+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.629 seconds
+[2025-12-02T09:43:15.650+0300] {processor.py:153} INFO - Started process (PID=929843) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:43:15.671+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:43:15.671+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:43:15.671+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:43:16.081+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:43:16.113+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:43:16.112+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:43:16.151+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:43:16.151+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:43:16.185+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.538 seconds
+[2025-12-02T09:44:07.078+0300] {processor.py:153} INFO - Started process (PID=929892) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:44:07.081+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:44:07.082+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:44:07.082+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:44:07.360+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:44:07.387+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:44:07.387+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:44:07.610+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:44:07.609+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:44:07.666+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.597 seconds
+[2025-12-02T09:44:56.600+0300] {processor.py:153} INFO - Started process (PID=929937) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:44:56.623+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:44:56.625+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:44:56.625+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:44:56.851+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:44:56.886+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:44:56.886+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:44:57.115+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:44:57.114+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:44:57.149+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.554 seconds
+[2025-12-02T09:45:52.617+0300] {processor.py:153} INFO - Started process (PID=929985) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:45:52.619+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:45:52.620+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:45:52.620+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:45:52.861+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:45:53.103+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:45:53.102+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:45:53.147+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:45:53.146+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:45:53.192+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.581 seconds
+[2025-12-02T09:46:49.254+0300] {processor.py:153} INFO - Started process (PID=930066) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:46:49.276+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:46:49.278+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:46:49.278+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:46:49.712+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:46:49.744+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:46:49.744+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:46:49.782+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:46:49.781+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:46:49.843+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.593 seconds
+[2025-12-02T09:47:39.501+0300] {processor.py:153} INFO - Started process (PID=930112) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:47:39.522+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:47:39.523+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:47:39.523+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:47:40.066+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:47:40.090+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:47:40.090+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:47:40.117+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:47:40.117+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:47:40.146+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.651 seconds
+[2025-12-02T09:48:30.225+0300] {processor.py:153} INFO - Started process (PID=930157) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:48:30.250+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:48:30.253+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:48:30.252+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:48:30.441+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:48:30.469+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:48:30.469+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:48:30.700+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:48:30.700+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:48:30.763+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.543 seconds
+[2025-12-02T09:49:25.400+0300] {processor.py:153} INFO - Started process (PID=930204) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:49:25.423+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:49:25.426+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:49:25.425+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:49:25.676+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:49:25.871+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:49:25.871+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:49:25.899+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:49:25.899+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:49:25.955+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.561 seconds
+[2025-12-02T09:50:20.725+0300] {processor.py:153} INFO - Started process (PID=930256) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:50:20.748+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:50:20.750+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:50:20.750+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:50:21.155+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:50:21.187+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:50:21.187+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:50:21.247+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:50:21.246+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:50:21.286+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.566 seconds
+[2025-12-02T09:51:10.703+0300] {processor.py:153} INFO - Started process (PID=930303) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:51:10.706+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:51:10.708+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:51:10.708+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:51:11.110+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:51:11.133+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:51:11.132+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:51:11.180+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:51:11.180+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:51:11.227+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.529 seconds
+[2025-12-02T09:52:03.920+0300] {processor.py:153} INFO - Started process (PID=930373) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:52:03.922+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:52:03.923+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:52:03.923+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:52:04.239+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:52:04.256+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:52:04.256+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:52:04.284+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:52:04.284+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:52:04.331+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.415 seconds
+[2025-12-02T09:52:49.440+0300] {processor.py:153} INFO - Started process (PID=930417) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:52:49.462+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:52:49.465+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:52:49.464+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:52:49.695+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:52:49.720+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:52:49.720+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:52:49.908+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:52:49.908+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:52:49.965+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.533 seconds
+[2025-12-02T09:53:38.008+0300] {processor.py:153} INFO - Started process (PID=930461) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:53:38.010+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:53:38.012+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:53:38.012+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:53:38.206+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:53:38.382+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:53:38.381+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:53:38.409+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:53:38.409+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:53:38.462+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.459 seconds
+[2025-12-02T09:54:32.963+0300] {processor.py:153} INFO - Started process (PID=930507) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:54:32.987+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:54:32.990+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:54:32.989+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:54:33.246+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:54:33.423+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:54:33.422+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:54:33.450+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:54:33.450+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:54:33.496+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.538 seconds
+[2025-12-02T09:55:25.996+0300] {processor.py:153} INFO - Started process (PID=930554) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:55:26.019+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:55:26.021+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:55:26.021+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:55:26.426+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:55:26.458+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:55:26.458+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:55:26.496+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:55:26.495+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:55:26.568+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.578 seconds
+[2025-12-02T09:56:18.661+0300] {processor.py:153} INFO - Started process (PID=930625) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:56:18.683+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:56:18.685+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:56:18.685+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:56:19.103+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:56:19.129+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:56:19.129+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:56:19.167+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:56:19.167+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:56:19.231+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.575 seconds
+[2025-12-02T09:57:07.720+0300] {processor.py:153} INFO - Started process (PID=930677) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:57:07.744+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:57:07.747+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:57:07.746+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:57:07.947+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:57:07.975+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:57:07.974+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:57:08.217+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:57:08.217+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:57:08.274+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.560 seconds
+[2025-12-02T09:57:54.746+0300] {processor.py:153} INFO - Started process (PID=930722) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:57:54.768+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:57:54.772+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:57:54.771+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:57:54.987+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:57:55.185+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:57:55.184+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:57:55.224+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:57:55.223+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:57:55.293+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.553 seconds
+[2025-12-02T09:58:46.983+0300] {processor.py:153} INFO - Started process (PID=930770) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:58:47.005+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:58:47.007+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:58:47.007+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:58:47.459+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:58:47.491+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:58:47.490+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:58:47.533+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:58:47.532+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:58:47.573+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.598 seconds
+[2025-12-02T09:59:33.917+0300] {processor.py:153} INFO - Started process (PID=930811) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:59:33.940+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T09:59:33.943+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:59:33.943+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:59:34.308+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T09:59:34.328+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:59:34.328+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T09:59:34.354+0300] {logging_mixin.py:137} INFO - [2025-12-02T09:59:34.354+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T09:59:34.411+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.501 seconds
+[2025-12-02T10:00:24.846+0300] {processor.py:153} INFO - Started process (PID=930861) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:00:24.868+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:00:24.870+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:00:24.870+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:00:25.300+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:00:25.329+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:00:25.329+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:00:25.362+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:00:25.362+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:00:25.393+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.553 seconds
+[2025-12-02T10:01:18.813+0300] {processor.py:153} INFO - Started process (PID=930930) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:01:18.837+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:01:18.840+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:01:18.839+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:01:19.294+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:01:19.325+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:01:19.325+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:01:19.358+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:01:19.358+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:01:19.414+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.609 seconds
+[2025-12-02T10:02:09.491+0300] {processor.py:153} INFO - Started process (PID=930977) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:02:09.493+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:02:09.496+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:02:09.495+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:02:09.762+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:02:09.990+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:02:09.989+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:02:10.024+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:02:10.024+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:02:10.074+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.589 seconds
+[2025-12-02T10:03:01.769+0300] {processor.py:153} INFO - Started process (PID=931023) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:03:01.791+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:03:01.793+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:03:01.793+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:03:02.184+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:03:02.208+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:03:02.208+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:03:02.245+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:03:02.244+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:03:02.294+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.529 seconds
+[2025-12-02T10:03:57.099+0300] {processor.py:153} INFO - Started process (PID=931073) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:03:57.121+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:03:57.123+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:03:57.123+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:03:57.527+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:03:57.561+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:03:57.561+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:03:57.592+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:03:57.592+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:03:57.628+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.540 seconds
+[2025-12-02T10:04:51.213+0300] {processor.py:153} INFO - Started process (PID=931120) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:04:51.215+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:04:51.216+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:04:51.216+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:04:51.560+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:04:51.583+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:04:51.583+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:04:51.610+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:04:51.610+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:04:51.654+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.446 seconds
+[2025-12-02T10:05:38.826+0300] {processor.py:153} INFO - Started process (PID=931166) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:05:38.848+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:05:38.854+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:05:38.853+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:05:39.247+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:05:39.268+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:05:39.268+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:05:39.296+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:05:39.295+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:05:39.327+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.506 seconds
+[2025-12-02T10:06:31.705+0300] {processor.py:153} INFO - Started process (PID=931241) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:06:31.728+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:06:31.731+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:06:31.731+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:06:31.943+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:06:32.116+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:06:32.115+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:06:32.155+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:06:32.155+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:06:32.218+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.518 seconds
+[2025-12-02T10:07:28.154+0300] {processor.py:153} INFO - Started process (PID=931290) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:07:28.179+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:07:28.182+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:07:28.181+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:07:28.534+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:07:28.565+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:07:28.564+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:07:28.603+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:07:28.603+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:07:28.659+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.511 seconds
+[2025-12-02T10:08:20.658+0300] {processor.py:153} INFO - Started process (PID=931338) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:08:20.681+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:08:20.683+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:08:20.682+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:08:21.035+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:08:21.064+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:08:21.064+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:08:21.098+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:08:21.098+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:08:21.157+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.507 seconds
+[2025-12-02T10:09:09.330+0300] {processor.py:153} INFO - Started process (PID=931383) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:09:09.333+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:09:09.334+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:09:09.333+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:09:09.743+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:09:09.763+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:09:09.763+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:09:09.799+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:09:09.799+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:09:09.832+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.507 seconds
+[2025-12-02T10:09:59.225+0300] {processor.py:153} INFO - Started process (PID=931431) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:09:59.247+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:09:59.250+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:09:59.249+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:09:59.692+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:09:59.724+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:09:59.724+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:09:59.754+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:09:59.754+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:09:59.813+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.593 seconds
+[2025-12-02T10:10:52.621+0300] {processor.py:153} INFO - Started process (PID=931500) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:10:52.645+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:10:52.649+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:10:52.648+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:10:53.058+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:10:53.087+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:10:53.087+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:10:53.120+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:10:53.120+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:10:53.176+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.560 seconds
+[2025-12-02T10:11:44.618+0300] {processor.py:153} INFO - Started process (PID=931547) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:11:44.641+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:11:44.643+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:11:44.643+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:11:45.131+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:11:45.156+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:11:45.156+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:11:45.206+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:11:45.205+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:11:45.268+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.655 seconds
+[2025-12-02T10:12:35.261+0300] {processor.py:153} INFO - Started process (PID=931591) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:12:35.263+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:12:35.264+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:12:35.264+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:12:35.651+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:12:35.674+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:12:35.674+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:12:35.722+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:12:35.721+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:12:35.825+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.569 seconds
+[2025-12-02T10:13:31.501+0300] {processor.py:153} INFO - Started process (PID=931638) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:13:31.523+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:13:31.525+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:13:31.525+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:13:31.964+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:13:31.994+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:13:31.994+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:13:32.033+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:13:32.033+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:13:32.095+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.600 seconds
+[2025-12-02T10:14:21.300+0300] {processor.py:153} INFO - Started process (PID=931685) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:14:21.324+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:14:21.327+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:14:21.326+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:14:21.802+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:14:21.831+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:14:21.831+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:14:21.874+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:14:21.873+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:14:21.936+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.643 seconds
+[2025-12-02T10:15:13.322+0300] {processor.py:153} INFO - Started process (PID=931736) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:15:13.325+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:15:13.326+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:15:13.326+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:15:13.707+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:15:13.729+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:15:13.728+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:15:13.755+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:15:13.754+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:15:13.816+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.500 seconds
+[2025-12-02T10:16:04.077+0300] {processor.py:153} INFO - Started process (PID=931804) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:16:04.081+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:16:04.083+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:16:04.082+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:16:04.540+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:16:04.582+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:16:04.581+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:16:04.625+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:16:04.625+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:16:04.661+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.591 seconds
+[2025-12-02T10:16:51.805+0300] {processor.py:153} INFO - Started process (PID=931854) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:16:51.808+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:16:51.810+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:16:51.810+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:16:52.288+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:16:52.323+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:16:52.322+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:16:52.356+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:16:52.356+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:16:52.419+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.619 seconds
+[2025-12-02T10:17:43.574+0300] {processor.py:153} INFO - Started process (PID=931905) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:17:43.596+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:17:43.599+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:17:43.599+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:17:44.000+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:17:44.025+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:17:44.025+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:17:44.057+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:17:44.056+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:17:44.121+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.553 seconds
+[2025-12-02T10:18:34.769+0300] {processor.py:153} INFO - Started process (PID=931949) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:18:34.792+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:18:34.795+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:18:34.794+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:18:35.302+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:18:35.328+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:18:35.328+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:18:35.360+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:18:35.360+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:18:35.421+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.659 seconds
+[2025-12-02T10:19:30.963+0300] {processor.py:153} INFO - Started process (PID=931998) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:19:30.987+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:19:30.989+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:19:30.989+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:19:31.473+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:19:31.501+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:19:31.500+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:19:31.541+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:19:31.541+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:19:31.605+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.648 seconds
+[2025-12-02T10:20:26.917+0300] {processor.py:153} INFO - Started process (PID=932069) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:20:26.940+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:20:26.942+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:20:26.942+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:20:27.339+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:20:27.359+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:20:27.359+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:20:27.388+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:20:27.388+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:20:27.447+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.535 seconds
+[2025-12-02T10:21:19.638+0300] {processor.py:153} INFO - Started process (PID=932118) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:21:19.660+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:21:19.663+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:21:19.662+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:21:20.044+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:21:20.072+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:21:20.072+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:21:20.107+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:21:20.107+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:21:20.163+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.532 seconds
+[2025-12-02T10:22:12.531+0300] {processor.py:153} INFO - Started process (PID=932166) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:22:12.556+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:22:12.559+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:22:12.559+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:22:13.002+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:22:13.034+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:22:13.033+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:22:13.070+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:22:13.070+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:22:13.132+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.607 seconds
+[2025-12-02T10:23:02.617+0300] {processor.py:153} INFO - Started process (PID=932211) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:23:02.639+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:23:02.641+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:23:02.641+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:23:03.050+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:23:03.070+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:23:03.070+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:23:03.098+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:23:03.098+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:23:03.152+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.542 seconds
+[2025-12-02T10:23:52.593+0300] {processor.py:153} INFO - Started process (PID=932257) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:23:52.616+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:23:52.618+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:23:52.618+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:23:53.000+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:23:53.022+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:23:53.021+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:23:53.047+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:23:53.047+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:23:53.095+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.507 seconds
+[2025-12-02T10:24:44.250+0300] {processor.py:153} INFO - Started process (PID=932305) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:24:44.272+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:24:44.275+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:24:44.274+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:24:44.648+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:24:44.667+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:24:44.667+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:24:44.693+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:24:44.692+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:24:44.738+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.493 seconds
+[2025-12-02T10:25:32.814+0300] {processor.py:153} INFO - Started process (PID=932371) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:25:32.838+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:25:32.840+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:25:32.839+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:25:33.231+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:25:33.257+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:25:33.257+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:25:33.286+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:25:33.286+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:25:33.344+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.535 seconds
+[2025-12-02T10:26:22.389+0300] {processor.py:153} INFO - Started process (PID=932416) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:26:22.413+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:26:22.416+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:26:22.416+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:26:22.853+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:26:22.886+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:26:22.886+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:26:22.928+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:26:22.928+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:26:22.963+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.580 seconds
+[2025-12-02T10:27:12.917+0300] {processor.py:153} INFO - Started process (PID=932468) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:27:12.937+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:27:12.937+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:27:12.937+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:27:13.254+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:27:13.271+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:27:13.271+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:27:13.296+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:27:13.296+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:27:13.348+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.436 seconds
+[2025-12-02T10:28:00.308+0300] {processor.py:153} INFO - Started process (PID=932512) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:28:00.313+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:28:00.314+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:28:00.313+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:28:00.592+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:28:00.610+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:28:00.610+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:28:00.634+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:28:00.634+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:28:00.684+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.381 seconds
+[2025-12-02T10:28:46.696+0300] {processor.py:153} INFO - Started process (PID=932559) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:28:46.718+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:28:46.719+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:28:46.718+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:28:47.100+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:28:47.117+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:28:47.117+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:28:47.142+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:28:47.141+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:28:47.196+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.505 seconds
+[2025-12-02T10:29:31.235+0300] {processor.py:153} INFO - Started process (PID=932600) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:29:31.257+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:29:31.258+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:29:31.258+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:29:31.600+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:29:31.620+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:29:31.620+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:29:31.647+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:29:31.647+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:29:31.677+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.449 seconds
+[2025-12-02T10:30:24.579+0300] {processor.py:153} INFO - Started process (PID=932670) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:30:24.600+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:30:24.602+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:30:24.602+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:30:25.035+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:30:25.062+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:30:25.062+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:30:25.095+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:30:25.095+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:30:25.144+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.571 seconds
+[2025-12-02T10:31:14.130+0300] {processor.py:153} INFO - Started process (PID=932719) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:31:14.151+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:31:14.152+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:31:14.152+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:31:14.485+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:31:14.505+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:31:14.505+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:31:14.530+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:31:14.530+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:31:14.556+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.431 seconds
+[2025-12-02T10:31:59.722+0300] {processor.py:153} INFO - Started process (PID=932762) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:31:59.743+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:31:59.745+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:31:59.744+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:32:00.036+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:32:00.059+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:32:00.059+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:32:00.084+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:32:00.084+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:32:00.134+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.416 seconds
+[2025-12-02T10:32:50.487+0300] {processor.py:153} INFO - Started process (PID=932808) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:32:50.492+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:32:50.493+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:32:50.493+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:32:50.807+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:32:50.824+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:32:50.824+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:32:50.849+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:32:50.848+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:32:50.899+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.416 seconds
+[2025-12-02T10:33:37.895+0300] {processor.py:153} INFO - Started process (PID=932853) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:33:37.897+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:33:37.898+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:33:37.898+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:33:38.331+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:33:38.362+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:33:38.361+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:33:38.397+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:33:38.396+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:33:38.450+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.559 seconds
+[2025-12-02T10:34:26.499+0300] {processor.py:153} INFO - Started process (PID=932920) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:34:26.521+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:34:26.522+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:34:26.522+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:34:26.857+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:34:26.874+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:34:26.874+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:34:26.900+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:34:26.900+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:34:26.947+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.453 seconds
+[2025-12-02T10:35:12.742+0300] {processor.py:153} INFO - Started process (PID=932965) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:35:12.764+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:35:12.766+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:35:12.765+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:35:13.058+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:35:13.076+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:35:13.076+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:35:13.101+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:35:13.100+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:35:13.129+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.391 seconds
+[2025-12-02T10:35:59.892+0300] {processor.py:153} INFO - Started process (PID=933009) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:35:59.914+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-12-02T10:35:59.915+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:35:59.915+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:36:00.248+0300] {processor.py:753} INFO - DAG(s) dict_keys(['weather_dag']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-12-02T10:36:00.267+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:36:00.267+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-12-02T10:36:00.293+0300] {logging_mixin.py:137} INFO - [2025-12-02T10:36:00.292+0300] {dag.py:3456} INFO - Setting next_dagrun for weather_dag to 2025-12-02T00:00:00+00:00, run_after=2025-12-03T00:00:00+00:00
+[2025-12-02T10:36:00.319+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.431 seconds

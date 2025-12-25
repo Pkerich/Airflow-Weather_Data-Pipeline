@@ -1,0 +1,588 @@
+[2025-11-26T21:25:28.319+0300] {processor.py:153} INFO - Started process (PID=1951) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:25:28.321+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:25:28.322+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:25:28.322+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:25:28.382+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:25:28.502+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:25:28.501+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:25:28.558+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:25:28.558+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-25T00:00:00+00:00, run_after=2025-11-26T00:00:00+00:00
+[2025-11-26T21:25:28.607+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.295 seconds
+[2025-11-26T21:26:03.891+0300] {processor.py:153} INFO - Started process (PID=2352) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:26:03.893+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:26:03.895+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:26:03.895+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:26:03.926+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:26:03.961+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:26:03.961+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:26:03.998+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:26:03.998+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:26:04.047+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.160 seconds
+[2025-11-26T21:26:34.256+0300] {processor.py:153} INFO - Started process (PID=2713) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:26:34.278+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:26:34.280+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:26:34.280+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:26:34.311+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:26:34.334+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:26:34.334+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:26:34.361+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:26:34.361+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:26:34.388+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.137 seconds
+[2025-11-26T21:27:04.526+0300] {processor.py:153} INFO - Started process (PID=2941) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:27:04.529+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:27:04.532+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:27:04.531+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:27:04.570+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:27:04.601+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:27:04.601+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:27:04.640+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:27:04.639+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:27:04.717+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.200 seconds
+[2025-11-26T21:27:35.388+0300] {processor.py:153} INFO - Started process (PID=3044) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:27:35.395+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:27:35.397+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:27:35.396+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:27:35.444+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:27:35.479+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:27:35.478+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:27:35.516+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:27:35.515+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:27:35.580+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.202 seconds
+[2025-11-26T21:28:05.996+0300] {processor.py:153} INFO - Started process (PID=3110) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:28:05.998+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:28:06.000+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:28:06.000+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:28:06.045+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:28:06.091+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:28:06.091+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:28:06.144+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:28:06.143+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:28:06.205+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.217 seconds
+[2025-11-26T21:28:36.960+0300] {processor.py:153} INFO - Started process (PID=3174) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:28:36.963+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:28:36.966+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:28:36.965+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:28:37.007+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:28:37.053+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:28:37.052+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:28:37.101+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:28:37.100+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:28:37.173+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.220 seconds
+[2025-11-26T21:29:07.838+0300] {processor.py:153} INFO - Started process (PID=3271) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:29:07.861+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:29:07.864+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:29:07.863+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:29:07.921+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:29:07.971+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:29:07.970+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:29:08.019+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:29:08.018+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:29:08.104+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.275 seconds
+[2025-11-26T21:29:38.427+0300] {processor.py:153} INFO - Started process (PID=3433) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:29:38.447+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:29:38.449+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:29:38.449+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:29:38.480+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:29:38.512+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:29:38.512+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:29:38.552+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:29:38.552+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:29:38.612+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.190 seconds
+[2025-11-26T21:30:09.107+0300] {processor.py:153} INFO - Started process (PID=3518) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:30:09.130+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:30:09.133+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:30:09.132+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:30:09.177+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:30:09.209+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:30:09.208+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:30:09.252+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:30:09.251+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:30:09.294+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.198 seconds
+[2025-11-26T21:30:40.071+0300] {processor.py:153} INFO - Started process (PID=3748) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:30:40.093+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:30:40.097+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:30:40.096+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:30:40.139+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:30:40.169+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:30:40.168+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:30:40.219+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:30:40.219+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:30:40.272+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.207 seconds
+[2025-11-26T21:31:10.901+0300] {processor.py:153} INFO - Started process (PID=3872) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:31:10.923+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:31:10.925+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:31:10.925+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:31:10.972+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:31:11.001+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:31:11.000+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:31:11.030+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:31:11.030+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:31:11.069+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.179 seconds
+[2025-11-26T21:31:37.695+0300] {processor.py:153} INFO - Started process (PID=4071) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:31:37.698+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:31:37.701+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:31:37.700+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:31:37.740+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:31:37.771+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:31:37.771+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:31:37.818+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:31:37.818+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:31:37.880+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.195 seconds
+[2025-11-26T21:31:41.718+0300] {processor.py:153} INFO - Started process (PID=4097) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:31:41.729+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:31:41.732+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:31:41.732+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:31:41.776+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:31:41.816+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:31:41.815+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:31:41.868+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:31:41.868+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:31:41.943+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.236 seconds
+[2025-11-26T21:32:09.058+0300] {processor.py:153} INFO - Started process (PID=4329) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:32:09.080+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:32:09.082+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:32:09.082+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:32:09.124+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:32:09.168+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:32:09.167+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:32:09.207+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:32:09.207+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:32:09.244+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.193 seconds
+[2025-11-26T21:32:12.514+0300] {processor.py:153} INFO - Started process (PID=4338) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:32:12.533+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:32:12.535+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:32:12.535+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:32:12.566+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:32:12.598+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:32:12.598+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:32:12.657+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:32:12.656+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:32:12.735+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.226 seconds
+[2025-11-26T21:32:39.742+0300] {processor.py:153} INFO - Started process (PID=4387) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:32:39.747+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:32:39.749+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:32:39.749+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:32:39.788+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:32:39.832+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:32:39.831+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:32:39.872+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:32:39.871+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:32:39.932+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.197 seconds
+[2025-11-26T21:32:43.488+0300] {processor.py:153} INFO - Started process (PID=4403) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:32:43.490+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:32:43.492+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:32:43.491+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:32:43.528+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:32:43.552+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:32:43.552+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:32:43.585+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:32:43.585+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:32:43.633+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.157 seconds
+[2025-11-26T21:33:10.358+0300] {processor.py:153} INFO - Started process (PID=4456) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:33:10.380+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:33:10.383+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:33:10.382+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:33:10.437+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:33:10.481+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:33:10.480+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:33:10.539+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:33:10.539+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:33:10.610+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.262 seconds
+[2025-11-26T21:33:14.280+0300] {processor.py:153} INFO - Started process (PID=4465) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:33:14.301+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:33:14.303+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:33:14.302+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:33:14.352+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:33:14.386+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:33:14.386+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:33:14.422+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:33:14.422+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:33:14.467+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.195 seconds
+[2025-11-26T21:33:40.981+0300] {processor.py:153} INFO - Started process (PID=4520) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:33:40.985+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:33:40.987+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:33:40.986+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:33:41.023+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:33:41.066+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:33:41.065+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:33:41.114+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:33:41.114+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:33:41.132+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.160 seconds
+[2025-11-26T21:33:44.823+0300] {processor.py:153} INFO - Started process (PID=4529) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:33:44.825+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:33:44.826+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:33:44.826+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:33:44.852+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:33:44.882+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:33:44.882+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:33:44.931+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:33:44.931+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:33:44.973+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.154 seconds
+[2025-11-26T21:34:11.604+0300] {processor.py:153} INFO - Started process (PID=4580) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:34:11.626+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:34:11.630+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:34:11.629+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:34:11.674+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:34:11.709+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:34:11.709+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:34:11.744+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:34:11.744+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:34:11.810+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.216 seconds
+[2025-11-26T21:34:15.279+0300] {processor.py:153} INFO - Started process (PID=4589) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:34:15.283+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:34:15.285+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:34:15.285+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:34:15.338+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:34:15.374+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:34:15.374+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:34:15.419+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:34:15.419+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:34:15.460+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.196 seconds
+[2025-11-26T21:34:42.324+0300] {processor.py:153} INFO - Started process (PID=4646) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:34:42.347+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:34:42.349+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:34:42.349+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:34:42.394+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:34:42.430+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:34:42.430+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:34:42.472+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:34:42.472+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:34:42.543+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.226 seconds
+[2025-11-26T21:34:45.826+0300] {processor.py:153} INFO - Started process (PID=4655) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:34:45.828+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:34:45.830+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:34:45.830+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:34:45.863+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:34:45.889+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:34:45.889+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:34:45.920+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:34:45.920+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:34:45.957+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.138 seconds
+[2025-11-26T21:35:15.003+0300] {processor.py:153} INFO - Started process (PID=4882) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:35:15.026+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:35:15.028+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:35:15.028+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:35:15.070+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:35:15.111+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:35:15.111+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:35:15.148+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:35:15.148+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:35:15.180+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.185 seconds
+[2025-11-26T21:35:16.267+0300] {processor.py:153} INFO - Started process (PID=4903) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:35:16.268+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:35:16.269+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:35:16.268+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:35:16.305+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:35:16.332+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:35:16.332+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:35:16.364+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:35:16.364+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:35:16.399+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.136 seconds
+[2025-11-26T21:35:46.318+0300] {processor.py:153} INFO - Started process (PID=5092) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:35:46.320+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:35:46.322+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:35:46.322+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:35:46.349+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:35:46.388+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:35:46.387+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:35:46.426+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:35:46.426+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:35:46.477+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.165 seconds
+[2025-11-26T21:35:46.707+0300] {processor.py:153} INFO - Started process (PID=5093) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:35:46.710+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:35:46.712+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:35:46.711+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:35:46.749+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:35:46.777+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:35:46.776+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:35:46.810+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:35:46.809+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:35:46.846+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.148 seconds
+[2025-11-26T21:36:16.967+0300] {processor.py:153} INFO - Started process (PID=5151) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:36:16.988+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:36:16.991+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:36:16.990+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:36:17.012+0300] {processor.py:153} INFO - Started process (PID=5152) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:36:17.015+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:36:17.017+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:36:17.017+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:36:17.043+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:36:17.063+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:36:17.081+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:36:17.081+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:36:17.100+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:36:17.099+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:36:17.127+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:36:17.127+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:36:17.144+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:36:17.144+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:36:17.185+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.225 seconds
+[2025-11-26T21:36:17.220+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.218 seconds
+[2025-11-26T21:36:47.535+0300] {processor.py:153} INFO - Started process (PID=5215) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:36:47.556+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:36:47.559+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:36:47.558+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:36:47.560+0300] {processor.py:153} INFO - Started process (PID=5216) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:36:47.563+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:36:47.565+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:36:47.565+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:36:47.606+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:36:47.607+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:36:47.635+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:36:47.635+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:36:47.637+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:36:47.636+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:36:47.669+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:36:47.669+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:36:47.672+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:36:47.671+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:36:47.755+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.232 seconds
+[2025-11-26T21:36:47.758+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.208 seconds
+[2025-11-26T21:37:18.140+0300] {processor.py:153} INFO - Started process (PID=5462) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:37:18.162+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:37:18.165+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:37:18.164+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:37:18.196+0300] {processor.py:153} INFO - Started process (PID=5463) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:37:18.199+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:37:18.201+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:37:18.200+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:37:18.214+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:37:18.236+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:37:18.250+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:37:18.250+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:37:18.268+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:37:18.267+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:37:18.284+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:37:18.283+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:37:18.343+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:37:18.343+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:37:18.345+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.212 seconds
+[2025-11-26T21:37:18.391+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.204 seconds
+[2025-11-26T21:37:48.652+0300] {processor.py:153} INFO - Started process (PID=5643) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:37:48.654+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:37:48.656+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:37:48.655+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:37:48.695+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:37:48.732+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:37:48.731+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:37:48.782+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:37:48.782+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:37:48.856+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.212 seconds
+[2025-11-26T21:37:48.856+0300] {processor.py:153} INFO - Started process (PID=5644) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:37:48.858+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:37:48.859+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:37:48.859+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:37:48.894+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:37:48.920+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:37:48.920+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:37:48.953+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:37:48.953+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:37:49.011+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.164 seconds
+[2025-11-26T21:38:19.104+0300] {processor.py:153} INFO - Started process (PID=5709) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:38:19.126+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:38:19.128+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:38:19.127+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:38:19.181+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:38:19.229+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:38:19.229+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:38:19.271+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:38:19.270+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:38:19.339+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.242 seconds
+[2025-11-26T21:38:19.570+0300] {processor.py:153} INFO - Started process (PID=5710) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:38:19.573+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:38:19.575+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:38:19.574+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:38:19.618+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:38:19.667+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:38:19.666+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:38:19.723+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:38:19.723+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:38:19.787+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.226 seconds
+[2025-11-26T21:38:49.636+0300] {processor.py:153} INFO - Started process (PID=5932) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:38:49.638+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:38:49.640+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:38:49.640+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:38:49.694+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:38:49.720+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:38:49.719+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:38:49.750+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:38:49.750+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:38:49.797+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.173 seconds
+[2025-11-26T21:38:50.191+0300] {processor.py:153} INFO - Started process (PID=5933) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:38:50.192+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:38:50.193+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:38:50.193+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:38:50.223+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:38:50.245+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:38:50.245+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:38:50.274+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:38:50.274+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:38:50.301+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.115 seconds
+[2025-11-26T21:39:20.024+0300] {processor.py:153} INFO - Started process (PID=6275) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:39:20.047+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:39:20.049+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:39:20.049+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:39:20.093+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:39:20.133+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:39:20.132+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:39:20.185+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:39:20.185+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:39:20.251+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.237 seconds
+[2025-11-26T21:39:20.887+0300] {processor.py:153} INFO - Started process (PID=6291) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:39:20.889+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:39:20.891+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:39:20.891+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:39:20.937+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:39:20.979+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:39:20.979+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:39:21.027+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:39:21.027+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:39:21.091+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.211 seconds
+[2025-11-26T21:39:50.553+0300] {processor.py:153} INFO - Started process (PID=6369) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:39:50.556+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:39:50.557+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:39:50.557+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:39:50.596+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:39:50.635+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:39:50.635+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:39:50.684+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:39:50.684+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:39:50.727+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.180 seconds
+[2025-11-26T21:39:51.489+0300] {processor.py:153} INFO - Started process (PID=6392) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:39:51.491+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:39:51.492+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:39:51.492+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:39:51.523+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:39:51.558+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:39:51.558+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:39:51.598+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:39:51.597+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:39:51.636+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.152 seconds
+[2025-11-26T21:39:53.611+0300] {processor.py:153} INFO - Started process (PID=6416) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:39:53.613+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:39:53.614+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:39:53.613+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:39:53.641+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:39:53.685+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:39:53.685+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:39:53.742+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:39:53.742+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:39:53.800+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.193 seconds
+[2025-11-26T21:40:20.811+0300] {processor.py:153} INFO - Started process (PID=6654) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:20.815+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:40:20.817+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:20.816+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:20.860+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:20.897+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:20.896+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:40:20.934+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:20.934+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:40:21.012+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.208 seconds
+[2025-11-26T21:40:22.119+0300] {processor.py:153} INFO - Started process (PID=6656) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:22.121+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:40:22.122+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:22.122+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:22.147+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:22.175+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:22.174+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:40:22.212+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:22.212+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:40:22.254+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.140 seconds
+[2025-11-26T21:40:24.921+0300] {processor.py:153} INFO - Started process (PID=6665) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:24.924+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:40:24.927+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:24.926+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:24.961+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:25.004+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:25.004+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:40:25.054+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:25.054+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:40:25.097+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.185 seconds
+[2025-11-26T21:40:51.312+0300] {processor.py:153} INFO - Started process (PID=6865) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:51.335+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:40:51.338+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:51.337+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:51.389+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:51.434+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:51.433+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:40:51.470+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:51.470+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:40:51.506+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.200 seconds
+[2025-11-26T21:40:52.604+0300] {processor.py:153} INFO - Started process (PID=6867) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:52.606+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:40:52.608+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:52.608+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:52.642+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:52.672+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:52.672+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:40:52.710+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:52.710+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:40:52.781+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.189 seconds
+[2025-11-26T21:40:55.588+0300] {processor.py:153} INFO - Started process (PID=6875) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:55.590+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:40:55.593+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:55.592+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:55.644+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:40:55.690+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:55.689+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:40:55.738+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:40:55.738+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:40:55.809+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.233 seconds
+[2025-11-26T21:41:21.833+0300] {processor.py:153} INFO - Started process (PID=6927) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:21.836+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:41:21.838+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:21.837+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:21.878+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:21.915+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:21.914+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:41:21.961+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:21.961+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:41:22.038+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.212 seconds
+[2025-11-26T21:41:23.244+0300] {processor.py:153} INFO - Started process (PID=6935) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:23.246+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:41:23.248+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:23.248+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:23.283+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:23.323+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:23.323+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:41:23.378+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:23.377+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:41:23.447+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.210 seconds
+[2025-11-26T21:41:26.213+0300] {processor.py:153} INFO - Started process (PID=6940) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:26.215+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:41:26.216+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:26.216+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:26.251+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:26.281+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:26.281+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:41:26.317+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:26.317+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:41:26.365+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.157 seconds
+[2025-11-26T21:41:52.378+0300] {processor.py:153} INFO - Started process (PID=6987) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:52.400+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:41:52.402+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:52.402+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:52.451+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:52.492+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:52.491+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:41:52.541+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:52.541+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:41:52.607+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.237 seconds
+[2025-11-26T21:41:53.910+0300] {processor.py:153} INFO - Started process (PID=6995) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:53.912+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:41:53.913+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:53.913+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:53.951+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:53.981+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:53.980+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:41:54.019+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:54.019+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:41:54.051+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.150 seconds
+[2025-11-26T21:41:56.893+0300] {processor.py:153} INFO - Started process (PID=7003) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:56.894+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:41:56.895+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:56.895+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:56.940+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:41:56.993+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:56.992+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:41:57.038+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:41:57.038+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:41:57.085+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.196 seconds
+[2025-11-26T21:42:22.917+0300] {processor.py:153} INFO - Started process (PID=7055) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:22.944+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:42:22.947+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:22.946+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:22.993+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:23.027+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:23.027+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:42:23.061+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:23.061+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:42:23.124+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.214 seconds
+[2025-11-26T21:42:24.543+0300] {processor.py:153} INFO - Started process (PID=7057) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:24.545+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:42:24.547+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:24.546+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:24.589+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:24.632+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:24.632+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:42:24.689+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:24.688+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:42:24.739+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.204 seconds
+[2025-11-26T21:42:27.432+0300] {processor.py:153} INFO - Started process (PID=7065) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:27.435+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:42:27.438+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:27.437+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:27.492+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:27.533+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:27.533+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:42:27.576+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:27.576+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:42:27.644+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.223 seconds
+[2025-11-26T21:42:53.471+0300] {processor.py:153} INFO - Started process (PID=7118) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:53.493+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:42:53.494+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:53.494+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:53.528+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:53.570+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:53.570+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:42:53.626+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:53.626+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:42:53.698+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.236 seconds
+[2025-11-26T21:42:55.178+0300] {processor.py:153} INFO - Started process (PID=7120) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:55.180+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:42:55.183+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:55.182+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:55.224+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:55.258+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:55.258+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:42:55.308+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:55.308+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:42:55.383+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.212 seconds
+[2025-11-26T21:42:58.118+0300] {processor.py:153} INFO - Started process (PID=7128) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:58.120+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:42:58.121+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:58.121+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:58.156+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:42:58.195+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:58.195+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:42:58.236+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:42:58.236+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:42:58.303+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.195 seconds
+[2025-11-26T21:43:23.985+0300] {processor.py:153} INFO - Started process (PID=7180) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:23.987+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:43:23.989+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:23.988+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:24.036+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:24.083+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:24.082+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:43:24.125+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:24.124+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:43:24.180+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.202 seconds
+[2025-11-26T21:43:25.831+0300] {processor.py:153} INFO - Started process (PID=7185) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:25.833+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:43:25.835+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:25.835+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:25.865+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:25.895+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:25.894+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:43:25.926+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:25.926+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:43:25.972+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.147 seconds
+[2025-11-26T21:43:28.742+0300] {processor.py:153} INFO - Started process (PID=7190) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:28.764+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:43:28.766+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:28.766+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:28.813+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:28.844+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:28.843+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:43:28.881+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:28.881+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:43:28.935+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.200 seconds
+[2025-11-26T21:43:54.402+0300] {processor.py:153} INFO - Started process (PID=7240) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:54.404+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:43:54.406+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:54.406+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:54.449+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:54.482+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:54.482+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:43:54.522+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:54.521+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:43:54.589+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.195 seconds
+[2025-11-26T21:43:56.522+0300] {processor.py:153} INFO - Started process (PID=7248) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:56.524+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:43:56.526+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:56.526+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:56.565+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:56.591+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:56.591+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:43:56.628+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:56.628+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:43:56.675+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.160 seconds
+[2025-11-26T21:43:59.342+0300] {processor.py:153} INFO - Started process (PID=7256) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:59.344+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:43:59.346+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:59.346+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:59.387+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:43:59.421+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:59.421+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:43:59.459+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:43:59.458+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:43:59.519+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.184 seconds
+[2025-11-26T21:44:24.947+0300] {processor.py:153} INFO - Started process (PID=7302) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:44:24.968+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:44:24.969+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:44:24.969+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:44:25.008+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:44:25.035+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:44:25.035+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:44:25.067+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:44:25.067+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:44:25.135+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.196 seconds
+[2025-11-26T21:44:27.089+0300] {processor.py:153} INFO - Started process (PID=7310) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:44:27.092+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:44:27.093+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:44:27.093+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:44:27.126+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:44:27.155+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:44:27.155+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:44:27.193+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:44:27.193+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:44:27.238+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.159 seconds
+[2025-11-26T21:44:29.957+0300] {processor.py:153} INFO - Started process (PID=7318) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:44:29.979+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:44:29.982+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:44:29.981+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:44:30.027+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:44:30.071+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:44:30.071+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:44:30.107+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:44:30.106+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:44:30.174+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.224 seconds
+[2025-11-26T21:44:55.362+0300] {processor.py:153} INFO - Started process (PID=7382) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:44:55.372+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:44:55.374+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:44:55.374+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:44:55.415+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:44:55.458+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:44:55.458+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:44:55.502+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:44:55.502+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:44:55.538+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.184 seconds
+[2025-11-26T21:44:57.772+0300] {processor.py:153} INFO - Started process (PID=7415) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:44:57.774+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:44:57.776+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:44:57.776+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:44:57.817+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:44:57.845+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:44:57.845+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:44:57.891+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:44:57.891+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:44:57.921+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.156 seconds
+[2025-11-26T21:45:00.523+0300] {processor.py:153} INFO - Started process (PID=7423) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:00.546+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:45:00.548+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:00.548+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:00.593+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:00.629+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:00.628+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:45:00.679+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:00.679+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:45:00.753+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.236 seconds
+[2025-11-26T21:45:25.710+0300] {processor.py:153} INFO - Started process (PID=7517) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:25.731+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:45:25.733+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:25.733+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:25.791+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:25.839+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:25.838+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:45:25.873+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:25.872+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:45:25.931+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.228 seconds
+[2025-11-26T21:45:28.382+0300] {processor.py:153} INFO - Started process (PID=7543) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:28.383+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:45:28.384+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:28.384+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:28.407+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:28.440+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:28.440+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:45:28.482+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:28.482+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:45:28.545+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.167 seconds
+[2025-11-26T21:45:31.127+0300] {processor.py:153} INFO - Started process (PID=7604) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:31.149+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:45:31.152+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:31.152+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:31.193+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:31.224+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:31.224+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:45:31.257+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:31.256+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:45:31.324+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.206 seconds
+[2025-11-26T21:45:56.188+0300] {processor.py:153} INFO - Started process (PID=7929) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:56.212+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:45:56.216+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:56.215+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:56.262+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:56.294+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:56.294+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:45:56.334+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:56.333+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:45:56.398+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.221 seconds
+[2025-11-26T21:45:59.061+0300] {processor.py:153} INFO - Started process (PID=7959) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:59.063+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:45:59.065+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:59.065+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:59.097+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:45:59.134+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:59.134+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:45:59.174+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:45:59.173+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:45:59.230+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.175 seconds
+[2025-11-26T21:46:01.756+0300] {processor.py:153} INFO - Started process (PID=8009) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:46:01.761+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T21:46:01.763+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:46:01.763+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:46:01.804+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T21:46:01.832+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:46:01.832+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T21:46:01.877+0300] {logging_mixin.py:137} INFO - [2025-11-26T21:46:01.877+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-26T21:46:01.954+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.206 seconds
+[2025-11-26T22:33:35.776+0300] {processor.py:153} INFO - Started process (PID=8037) to work on /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T22:33:35.789+0300] {processor.py:743} INFO - Processing file /home/pker/airflow/dags/weather_dag.py for tasks to queue
+[2025-11-26T22:33:35.790+0300] {logging_mixin.py:137} INFO - [2025-11-26T22:33:35.790+0300] {dagbag.py:532} INFO - Filling up the DagBag from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T22:33:35.851+0300] {processor.py:753} INFO - DAG(s) dict_keys(['execute_python_operator']) retrieved from /home/pker/airflow/dags/weather_dag.py
+[2025-11-26T22:33:35.879+0300] {logging_mixin.py:137} INFO - [2025-11-26T22:33:35.879+0300] {dag.py:2705} INFO - Sync 1 DAGs
+[2025-11-26T22:33:35.931+0300] {logging_mixin.py:137} INFO - [2025-11-26T22:33:35.930+0300] {dag.py:3456} INFO - Setting next_dagrun for execute_python_operator to 2025-11-26T00:00:00+00:00, run_after=2025-11-27T00:00:00+00:00
+[2025-11-27T07:48:29.713+0300] {processor.py:175} INFO - Processing /home/pker/airflow/dags/weather_dag.py took 0.257 seconds

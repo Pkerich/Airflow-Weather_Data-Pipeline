@@ -1,0 +1,30 @@
+[2025-12-23T16:36:38.423+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_dag.transform_weather_data manual__2025-12-23T13:36:31.802303+00:00 [queued]>
+[2025-12-23T16:36:38.432+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_dag.transform_weather_data manual__2025-12-23T13:36:31.802303+00:00 [queued]>
+[2025-12-23T16:36:38.432+0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-12-23T16:36:38.433+0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2025-12-23T16:36:38.433+0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-12-23T16:36:38.446+0300] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): transform_weather_data> on 2025-12-23 13:36:31.802303+00:00
+[2025-12-23T16:36:38.449+0300] {standard_task_runner.py:55} INFO - Started process 91177 to run task
+[2025-12-23T16:36:38.452+0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'weather_dag', 'transform_weather_data', 'manual__2025-12-23T13:36:31.802303+00:00', '--job-id', '249', '--raw', '--subdir', 'DAGS_FOLDER/weather_dag.py', '--cfg-path', '/tmp/tmpcjg9s11b']
+[2025-12-23T16:36:38.452+0300] {standard_task_runner.py:83} INFO - Job 249: Subtask transform_weather_data
+[2025-12-23T16:36:38.494+0300] {task_command.py:389} INFO - Running <TaskInstance: weather_dag.transform_weather_data manual__2025-12-23T13:36:31.802303+00:00 [running]> on host DESKTOP-P0U82UP.
+[2025-12-23T16:36:38.545+0300] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pker
+AIRFLOW_CTX_DAG_ID=weather_dag
+AIRFLOW_CTX_TASK_ID=transform_weather_data
+AIRFLOW_CTX_EXECUTION_DATE=2025-12-23T13:36:31.802303+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-12-23T13:36:31.802303+00:00
+[2025-12-23T16:36:38.547+0300] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: transform_weather_data() missing 1 required positional argument: 'data'
+[2025-12-23T16:36:38.550+0300] {taskinstance.py:1332} INFO - Marking task as FAILED. dag_id=weather_dag, task_id=transform_weather_data, execution_date=20251223T133631, start_date=20251223T133638, end_date=20251223T133638
+[2025-12-23T16:36:38.562+0300] {standard_task_runner.py:105} ERROR - Failed to execute job 249 for task transform_weather_data (transform_weather_data() missing 1 required positional argument: 'data'; 91177)
+[2025-12-23T16:36:38.587+0300] {local_task_job.py:212} INFO - Task exited with return code 1
+[2025-12-23T16:36:38.619+0300] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

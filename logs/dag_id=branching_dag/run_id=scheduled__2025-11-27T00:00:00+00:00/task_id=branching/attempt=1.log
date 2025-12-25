@@ -1,0 +1,33 @@
+[2025-11-28T16:27:13.977+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: branching_dag.branching scheduled__2025-11-27T00:00:00+00:00 [queued]>
+[2025-11-28T16:27:13.986+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: branching_dag.branching scheduled__2025-11-27T00:00:00+00:00 [queued]>
+[2025-11-28T16:27:13.987+0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-28T16:27:13.987+0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2025-11-28T16:27:13.987+0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-28T16:27:14.009+0300] {taskinstance.py:1309} INFO - Executing <Task(BranchPythonOperator): branching> on 2025-11-27 00:00:00+00:00
+[2025-11-28T16:27:14.013+0300] {standard_task_runner.py:55} INFO - Started process 544225 to run task
+[2025-11-28T16:27:14.017+0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'branching_dag', 'branching', 'scheduled__2025-11-27T00:00:00+00:00', '--job-id', '128', '--raw', '--subdir', 'DAGS_FOLDER/branching_dag.py', '--cfg-path', '/tmp/tmpk4m8swtu']
+[2025-11-28T16:27:14.019+0300] {standard_task_runner.py:83} INFO - Job 128: Subtask branching
+[2025-11-28T16:27:14.084+0300] {task_command.py:389} INFO - Running <TaskInstance: branching_dag.branching scheduled__2025-11-27T00:00:00+00:00 [running]> on host DESKTOP-P0U82UP.
+[2025-11-28T16:27:14.167+0300] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pker
+AIRFLOW_CTX_DAG_ID=branching_dag
+AIRFLOW_CTX_TASK_ID=branching
+AIRFLOW_CTX_EXECUTION_DATE=2025-11-27T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-11-27T00:00:00+00:00
+[2025-11-28T16:27:14.177+0300] {python.py:177} INFO - Done. Returned value was: can drive_to_work
+[2025-11-28T16:27:14.177+0300] {python.py:211} INFO - Branch callable return can drive_to_work
+[2025-11-28T16:27:14.177+0300] {skipmixin.py:155} INFO - Following branch can drive_to_work
+[2025-11-28T16:27:14.183+0300] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 212, in execute
+    self.skip_all_except(context["ti"], branch)
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/models/skipmixin.py", line 186, in skip_all_except
+    "'branch_task_ids' must contain only valid task_ids. "
+airflow.exceptions.AirflowException: 'branch_task_ids' must contain only valid task_ids. Invalid tasks found: {'can drive_to_work'}.
+[2025-11-28T16:27:14.187+0300] {taskinstance.py:1332} INFO - Marking task as FAILED. dag_id=branching_dag, task_id=branching, execution_date=20251127T000000, start_date=20251128T132713, end_date=20251128T132714
+[2025-11-28T16:27:14.204+0300] {standard_task_runner.py:105} ERROR - Failed to execute job 128 for task branching ('branch_task_ids' must contain only valid task_ids. Invalid tasks found: {'can drive_to_work'}.; 544225)
+[2025-11-28T16:27:14.243+0300] {local_task_job.py:212} INFO - Task exited with return code 1
+[2025-11-28T16:27:14.287+0300] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

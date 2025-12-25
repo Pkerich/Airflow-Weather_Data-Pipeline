@@ -1,0 +1,33 @@
+[2025-11-29T09:20:36.083+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cross_task_communication.multiply_by_100 manual__2025-11-29T06:20:30.881362+00:00 [queued]>
+[2025-11-29T09:20:36.090+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cross_task_communication.multiply_by_100 manual__2025-11-29T06:20:30.881362+00:00 [queued]>
+[2025-11-29T09:20:36.090+0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-29T09:20:36.090+0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2025-11-29T09:20:36.090+0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-29T09:20:36.108+0300] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): multiply_by_100> on 2025-11-29 06:20:30.881362+00:00
+[2025-11-29T09:20:36.111+0300] {standard_task_runner.py:55} INFO - Started process 622901 to run task
+[2025-11-29T09:20:36.115+0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'cross_task_communication', 'multiply_by_100', 'manual__2025-11-29T06:20:30.881362+00:00', '--job-id', '165', '--raw', '--subdir', 'DAGS_FOLDER/xcom.py', '--cfg-path', '/tmp/tmphckexbgp']
+[2025-11-29T09:20:36.115+0300] {standard_task_runner.py:83} INFO - Job 165: Subtask multiply_by_100
+[2025-11-29T09:20:36.172+0300] {task_command.py:389} INFO - Running <TaskInstance: cross_task_communication.multiply_by_100 manual__2025-11-29T06:20:30.881362+00:00 [running]> on host DESKTOP-P0U82UP.
+[2025-11-29T09:20:36.237+0300] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pker
+AIRFLOW_CTX_DAG_ID=cross_task_communication
+AIRFLOW_CTX_TASK_ID=multiply_by_100
+AIRFLOW_CTX_EXECUTION_DATE=2025-11-29T06:20:30.881362+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-11-29T06:20:30.881362+00:00
+[2025-11-29T09:20:36.247+0300] {logging_mixin.py:137} INFO - Value None!
+[2025-11-29T09:20:36.248+0300] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/pker/airflow/dags/xcom.py", line 20, in multiply_by_100
+    return value * 100
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+[2025-11-29T09:20:36.253+0300] {taskinstance.py:1332} INFO - Marking task as FAILED. dag_id=cross_task_communication, task_id=multiply_by_100, execution_date=20251129T062030, start_date=20251129T062036, end_date=20251129T062036
+[2025-11-29T09:20:36.279+0300] {standard_task_runner.py:105} ERROR - Failed to execute job 165 for task multiply_by_100 (unsupported operand type(s) for *: 'NoneType' and 'int'; 622901)
+[2025-11-29T09:20:36.298+0300] {local_task_job.py:212} INFO - Task exited with return code 1
+[2025-11-29T09:20:36.322+0300] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

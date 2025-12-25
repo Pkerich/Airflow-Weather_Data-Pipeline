@@ -1,0 +1,27 @@
+[2025-12-02T08:04:45.401+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_dag.extract_weather_data scheduled__2025-12-01T00:00:00+00:00 [queued]>
+[2025-12-02T08:04:45.415+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_dag.extract_weather_data scheduled__2025-12-01T00:00:00+00:00 [queued]>
+[2025-12-02T08:04:45.416+0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-12-02T08:04:45.416+0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2025-12-02T08:04:45.416+0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-12-02T08:04:45.449+0300] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): extract_weather_data> on 2025-12-01 00:00:00+00:00
+[2025-12-02T08:04:45.454+0300] {standard_task_runner.py:55} INFO - Started process 923470 to run task
+[2025-12-02T08:04:45.462+0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'weather_dag', 'extract_weather_data', 'scheduled__2025-12-01T00:00:00+00:00', '--job-id', '208', '--raw', '--subdir', 'DAGS_FOLDER/weather_dag.py', '--cfg-path', '/tmp/tmpr99ifaae']
+[2025-12-02T08:04:45.464+0300] {standard_task_runner.py:83} INFO - Job 208: Subtask extract_weather_data
+[2025-12-02T08:04:45.613+0300] {task_command.py:389} INFO - Running <TaskInstance: weather_dag.extract_weather_data scheduled__2025-12-01T00:00:00+00:00 [running]> on host DESKTOP-P0U82UP.
+[2025-12-02T08:04:45.766+0300] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pker
+AIRFLOW_CTX_DAG_ID=weather_dag
+AIRFLOW_CTX_TASK_ID=extract_weather_data
+AIRFLOW_CTX_EXECUTION_DATE=2025-12-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-12-01T00:00:00+00:00
+[2025-12-02T08:04:46.402+0300] {logging_mixin.py:137} INFO -       city weather_description  temperature  feels_like  ...  wind_speed              time_recorded                    sunrise                     sunset
+0  Nairobi          few clouds        15.93       15.33  ...        3.09  2025-12-02T07:57:56+03:00  2025-12-02T18:27:59+03:00  2025-12-02T06:16:41+03:00
+
+[1 rows x 12 columns]
+[2025-12-02T08:04:46.406+0300] {python.py:177} INFO - Done. Returned value was: [{'city': 'Nairobi', 'weather_description': 'few clouds', 'temperature': 15.93, 'feels_like': 15.33, 'min_temperature': 13.62, 'max_temperature': 15.93, 'pressure': 1017, 'humidity': 67, 'wind_speed': 3.09, 'time_recorded': '2025-12-02T07:57:56+03:00', 'sunrise': '2025-12-02T18:27:59+03:00', 'sunset': '2025-12-02T06:16:41+03:00'}]
+[2025-12-02T08:04:46.466+0300] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=weather_dag, task_id=extract_weather_data, execution_date=20251201T000000, start_date=20251202T050445, end_date=20251202T050446
+[2025-12-02T08:04:46.507+0300] {local_task_job.py:212} INFO - Task exited with return code 0
+[2025-12-02T08:04:46.547+0300] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

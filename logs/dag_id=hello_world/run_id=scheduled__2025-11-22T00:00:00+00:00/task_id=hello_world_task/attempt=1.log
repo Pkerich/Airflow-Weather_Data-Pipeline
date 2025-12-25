@@ -1,0 +1,28 @@
+[2025-11-23T08:43:21.363+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello_world.hello_world_task scheduled__2025-11-22T00:00:00+00:00 [queued]>
+[2025-11-23T08:43:21.377+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello_world.hello_world_task scheduled__2025-11-22T00:00:00+00:00 [queued]>
+[2025-11-23T08:43:21.377+0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-23T08:43:21.377+0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2025-11-23T08:43:21.378+0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-23T08:43:21.400+0300] {taskinstance.py:1309} INFO - Executing <Task(BashOperator): hello_world_task> on 2025-11-22 00:00:00+00:00
+[2025-11-23T08:43:21.403+0300] {standard_task_runner.py:55} INFO - Started process 278595 to run task
+[2025-11-23T08:43:21.409+0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'hello_world', 'hello_world_task', 'scheduled__2025-11-22T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/weather_dag.py', '--cfg-path', '/tmp/tmp07rhvms2']
+[2025-11-23T08:43:21.410+0300] {standard_task_runner.py:83} INFO - Job 30: Subtask hello_world_task
+[2025-11-23T08:43:21.485+0300] {task_command.py:389} INFO - Running <TaskInstance: hello_world.hello_world_task scheduled__2025-11-22T00:00:00+00:00 [running]> on host DESKTOP-P0U82UP.
+[2025-11-23T08:43:21.578+0300] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pker
+AIRFLOW_CTX_DAG_ID=hello_world
+AIRFLOW_CTX_TASK_ID=hello_world_task
+AIRFLOW_CTX_EXECUTION_DATE=2025-11-22T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-11-22T00:00:00+00:00
+[2025-11-23T08:43:21.579+0300] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2025-11-23T08:43:21.580+0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo Hello World once again']
+[2025-11-23T08:43:21.588+0300] {subprocess.py:86} INFO - Output:
+[2025-11-23T08:43:21.588+0300] {subprocess.py:93} INFO - Hello World once again
+[2025-11-23T08:43:21.589+0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-11-23T08:43:21.622+0300] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=hello_world, task_id=hello_world_task, execution_date=20251122T000000, start_date=20251123T054321, end_date=20251123T054321
+[2025-11-23T08:43:21.661+0300] {local_task_job.py:212} INFO - Task exited with return code 0
+[2025-11-23T08:43:21.677+0300] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

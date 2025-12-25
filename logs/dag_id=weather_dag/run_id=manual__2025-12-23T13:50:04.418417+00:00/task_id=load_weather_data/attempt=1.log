@@ -1,0 +1,43 @@
+[2025-12-23T16:50:13.996+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_dag.load_weather_data manual__2025-12-23T13:50:04.418417+00:00 [queued]>
+[2025-12-23T16:50:14.003+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_dag.load_weather_data manual__2025-12-23T13:50:04.418417+00:00 [queued]>
+[2025-12-23T16:50:14.003+0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-12-23T16:50:14.003+0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2025-12-23T16:50:14.004+0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-12-23T16:50:14.016+0300] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): load_weather_data> on 2025-12-23 13:50:04.418417+00:00
+[2025-12-23T16:50:14.019+0300] {standard_task_runner.py:55} INFO - Started process 95700 to run task
+[2025-12-23T16:50:14.023+0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'weather_dag', 'load_weather_data', 'manual__2025-12-23T13:50:04.418417+00:00', '--job-id', '255', '--raw', '--subdir', 'DAGS_FOLDER/weather_dag.py', '--cfg-path', '/tmp/tmpe7juybqk']
+[2025-12-23T16:50:14.023+0300] {standard_task_runner.py:83} INFO - Job 255: Subtask load_weather_data
+[2025-12-23T16:50:14.074+0300] {task_command.py:389} INFO - Running <TaskInstance: weather_dag.load_weather_data manual__2025-12-23T13:50:04.418417+00:00 [running]> on host DESKTOP-P0U82UP.
+[2025-12-23T16:50:14.130+0300] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pker
+AIRFLOW_CTX_DAG_ID=weather_dag
+AIRFLOW_CTX_TASK_ID=load_weather_data
+AIRFLOW_CTX_EXECUTION_DATE=2025-12-23T13:50:04.418417+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-12-23T13:50:04.418417+00:00
+[2025-12-23T16:50:14.146+0300] {base.py:73} INFO - Using connection ID 'my_postgre_conn' for task execution.
+[2025-12-23T16:50:14.149+0300] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/pker/airflow/dags/weather_etl/main.py", line 96, in load_data
+    record['sunset']
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/providers/common/sql/hooks/sql.py", line 342, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 145, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-12-23T16:50:14.154+0300] {taskinstance.py:1332} INFO - Marking task as FAILED. dag_id=weather_dag, task_id=load_weather_data, execution_date=20251223T135004, start_date=20251223T135013, end_date=20251223T135014
+[2025-12-23T16:50:14.163+0300] {standard_task_runner.py:105} ERROR - Failed to execute job 255 for task load_weather_data (connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+; 95700)
+[2025-12-23T16:50:14.200+0300] {local_task_job.py:212} INFO - Task exited with return code 1
+[2025-12-23T16:50:14.221+0300] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

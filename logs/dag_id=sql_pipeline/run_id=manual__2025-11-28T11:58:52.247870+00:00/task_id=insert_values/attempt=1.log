@@ -1,0 +1,41 @@
+[2025-11-28T14:58:59.941+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sql_pipeline.insert_values manual__2025-11-28T11:58:52.247870+00:00 [queued]>
+[2025-11-28T14:58:59.954+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sql_pipeline.insert_values manual__2025-11-28T11:58:52.247870+00:00 [queued]>
+[2025-11-28T14:58:59.954+0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-28T14:58:59.954+0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2025-11-28T14:58:59.955+0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-28T14:58:59.975+0300] {taskinstance.py:1309} INFO - Executing <Task(SqliteOperator): insert_values> on 2025-11-28 11:58:52.247870+00:00
+[2025-11-28T14:58:59.979+0300] {standard_task_runner.py:55} INFO - Started process 494579 to run task
+[2025-11-28T14:58:59.983+0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'sql_pipeline', 'insert_values', 'manual__2025-11-28T11:58:52.247870+00:00', '--job-id', '116', '--raw', '--subdir', 'DAGS_FOLDER/sql_pipeline.py', '--cfg-path', '/tmp/tmptbki513i']
+[2025-11-28T14:58:59.985+0300] {standard_task_runner.py:83} INFO - Job 116: Subtask insert_values
+[2025-11-28T14:59:00.046+0300] {task_command.py:389} INFO - Running <TaskInstance: sql_pipeline.insert_values manual__2025-11-28T11:58:52.247870+00:00 [running]> on host DESKTOP-P0U82UP.
+[2025-11-28T14:59:00.146+0300] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pker
+AIRFLOW_CTX_DAG_ID=sql_pipeline
+AIRFLOW_CTX_TASK_ID=insert_values
+AIRFLOW_CTX_EXECUTION_DATE=2025-11-28T11:58:52.247870+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-11-28T11:58:52.247870+00:00
+[2025-11-28T14:59:00.147+0300] {sql.py:254} INFO - Executing: 
+        INSERT INTO users (name, age, is_active) VALUES
+            ('Alice', 30, false),
+            ('Bob', 25, true),
+            ('Charlie', 35, false),
+            ('David', 28, false),
+            ('Eve', 22, true);
+            
+[2025-11-28T14:59:00.152+0300] {base.py:73} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2025-11-28T14:59:00.267+0300] {base.py:73} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2025-11-28T14:59:00.268+0300] {sql.py:375} INFO - Running statement: 
+        INSERT INTO users (name, age, is_active) VALUES
+            ('Alice', 30, false),
+            ('Bob', 25, true),
+            ('Charlie', 35, false),
+            ('David', 28, false),
+            ('Eve', 22, true);
+            , parameters: None
+[2025-11-28T14:59:00.268+0300] {sql.py:384} INFO - Rows affected: 5
+[2025-11-28T14:59:00.303+0300] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=sql_pipeline, task_id=insert_values, execution_date=20251128T115852, start_date=20251128T115859, end_date=20251128T115900
+[2025-11-28T14:59:00.341+0300] {local_task_job.py:212} INFO - Task exited with return code 0
+[2025-11-28T14:59:00.371+0300] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

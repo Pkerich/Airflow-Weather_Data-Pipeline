@@ -1,0 +1,33 @@
+[2025-11-27T17:03:33.119+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cross_task_communication.increment_by_1 scheduled__2025-11-26T00:00:00+00:00 [queued]>
+[2025-11-27T17:03:33.130+0300] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cross_task_communication.increment_by_1 scheduled__2025-11-26T00:00:00+00:00 [queued]>
+[2025-11-27T17:03:33.131+0300] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-27T17:03:33.131+0300] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2025-11-27T17:03:33.131+0300] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2025-11-27T17:03:33.159+0300] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): increment_by_1> on 2025-11-26 00:00:00+00:00
+[2025-11-27T17:03:33.164+0300] {standard_task_runner.py:55} INFO - Started process 131951 to run task
+[2025-11-27T17:03:33.173+0300] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'cross_task_communication', 'increment_by_1', 'scheduled__2025-11-26T00:00:00+00:00', '--job-id', '75', '--raw', '--subdir', 'DAGS_FOLDER/xcom.py', '--cfg-path', '/tmp/tmp1lp430et']
+[2025-11-27T17:03:33.176+0300] {standard_task_runner.py:83} INFO - Job 75: Subtask increment_by_1
+[2025-11-27T17:03:33.263+0300] {task_command.py:389} INFO - Running <TaskInstance: cross_task_communication.increment_by_1 scheduled__2025-11-26T00:00:00+00:00 [running]> on host DESKTOP-P0U82UP.
+[2025-11-27T17:03:33.349+0300] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=pker
+AIRFLOW_CTX_DAG_ID=cross_task_communication
+AIRFLOW_CTX_TASK_ID=increment_by_1
+AIRFLOW_CTX_EXECUTION_DATE=2025-11-26T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2025-11-26T00:00:00+00:00
+[2025-11-27T17:03:33.351+0300] {logging_mixin.py:137} INFO - Count counter!
+[2025-11-27T17:03:33.351+0300] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/pker/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/pker/airflow/dags/xcom.py", line 14, in increment_by_1
+    return counter + 1
+TypeError: can only concatenate str (not "int") to str
+[2025-11-27T17:03:33.359+0300] {taskinstance.py:1332} INFO - Marking task as FAILED. dag_id=cross_task_communication, task_id=increment_by_1, execution_date=20251126T000000, start_date=20251127T140333, end_date=20251127T140333
+[2025-11-27T17:03:33.376+0300] {standard_task_runner.py:105} ERROR - Failed to execute job 75 for task increment_by_1 (can only concatenate str (not "int") to str; 131951)
+[2025-11-27T17:03:33.388+0300] {local_task_job.py:212} INFO - Task exited with return code 1
+[2025-11-27T17:03:33.413+0300] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check
