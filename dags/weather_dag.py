@@ -23,10 +23,10 @@ with DAG(
     dag_id = 'weather_dag',
     description = 'Extract weather data from api',
     default_args = default_args,
-    start_date = days_ago(1),
+    start_date = days_ago(5),
     schedule_interval = '@daily',
     tags = ['weather', 'data'],
-    catchup = False
+    catchup = True
 ) as dag:
     extract_data = PythonOperator(
         task_id = 'extract_weather_data',

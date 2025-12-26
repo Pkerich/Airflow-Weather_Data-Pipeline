@@ -71,7 +71,7 @@ def load_data(ti):
    
     columns = list(records[0].keys())
     rows = [tuple(record[col] for col in columns) for record in records]
-    pg_hook.insert_rows(table='weather_table', rows=rows, target_fields=columns, commit_every=1000)
+    pg_hook.insert_rows(table='weather_table', rows=rows, target_fields=columns, commit_every=1000, replace=True, replace_index='id')
    
     print(f"Successfully loaded {len(rows)} rows into PostgreSQL.")
 
@@ -80,10 +80,11 @@ def load_data(ti):
 if __name__ == "__main__":
     import os
     from unittest.mock import patch
+    SECRET_KEY = os.getenv("api_key_value")
 
     # Mock the Airflow Variable so it returns a dummy key locally
     with patch("airflow.models.Variable.get") as mock_get:
-        mock_get.return_value = "914630be09466c7a3bb2fba5721f283a"
+        mock_get.return_value = SECRET_KEY
         
         print("--- Running local test ---")
         data = fetch_weather_data()
